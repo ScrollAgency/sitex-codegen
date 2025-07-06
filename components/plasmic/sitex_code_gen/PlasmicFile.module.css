@@ -1,0 +1,265 @@
+.frame1437253929 {
+  background: rgba(255, 255, 255, 1);
+  height: 160px;
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  cursor: pointer;
+  width: 240px;
+  position: relative;
+  border-radius: 8px;
+  padding: 8px 12px;
+}
+.frame1437253929 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: calc(0px - 24px);
+  height: calc(100% + 24px);
+}
+.frame1437253929 > :global(.__wab_flex-container) > *,
+.frame1437253929 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame1437253929 > :global(.__wab_flex-container) > picture > img,
+.frame1437253929
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 24px;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .frame1437253929 {
+    width: 100%;
+    min-width: 0;
+  }
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .frame1437253929 > :global(.__wab_flex-container) {
+    min-width: 0;
+  }
+}
+.freeBox__gq7Nm {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  align-self: stretch;
+  min-width: 0;
+  padding: 8px;
+}
+.freeBox__gq7Nm > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-between;
+  min-width: 0;
+  margin-left: calc(0px - 16px);
+  width: calc(100% + 16px);
+}
+.freeBox__gq7Nm > :global(.__wab_flex-container) > *,
+.freeBox__gq7Nm > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__gq7Nm > :global(.__wab_flex-container) > picture > img,
+.freeBox__gq7Nm
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 16px;
+}
+.text {
+  display: block;
+  font-size: 14px;
+  font-family: "Manrope", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(3, 2, 41, 1);
+}
+.freeBox___43Nb9 {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+.freeBox___43Nb9 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  margin-left: calc(0px - 8px);
+  width: calc(100% + 8px);
+}
+.freeBox___43Nb9 > :global(.__wab_flex-container) > *,
+.freeBox___43Nb9 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox___43Nb9 > :global(.__wab_flex-container) > picture > img,
+.freeBox___43Nb9
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 8px;
+}
+.svg___1DEg4 {
+  object-fit: cover;
+  max-width: 100%;
+  color: #131013;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  cursor: pointer;
+  flex-shrink: 0;
+  display: none;
+}
+.frame1437253929 .svg___1DEg4:hover {
+  color: var(--token-ED64V8jxQoFW);
+}
+.svg__s2AvA {
+  object-fit: cover;
+  max-width: 100%;
+  color: #131013;
+  width: 24px;
+  height: 24px;
+  display: block;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  z-index: 2;
+  flex-shrink: 0;
+}
+.frame1437253929 .svg__s2AvA:hover {
+  color: var(--token-ED64V8jxQoFW);
+}
+.freeBox__hAf6 {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items: stretch;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  padding: 8px;
+}
+.img {
+  object-fit: cover;
+  max-width: 80px;
+  max-height: 80px;
+}
+.img > picture > img {
+  object-fit: cover;
+}
+.deleteFile2:global(.__wab_instance):global(.__wab_instance) {
+  max-width: 100%;
+  display: none;
+}
+.frame1437254032 {
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  flex-direction: row;
+  padding: 64px 32px 24px;
+}
+.frame1437254032 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: calc(0px - 8px);
+  width: calc(100% + 8px);
+}
+.frame1437254032 > :global(.__wab_flex-container) > *,
+.frame1437254032 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame1437254032 > :global(.__wab_flex-container) > picture > img,
+.frame1437254032
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 8px;
+}
+.name14 {
+  display: block;
+  font-size: 20px;
+  font-family: "Manrope", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0em;
+  line-height: 1.5;
+  color: rgba(19, 16, 19, 1);
+  position: relative;
+  font-style: normal;
+  text-align: left;
+  text-transform: none;
+  white-space: pre-wrap;
+  user-select: text;
+  text-decoration-line: none;
+  text-overflow: clip;
+}
+.frame1437254033 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+}
+.frame1437254033 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: calc(0px - 24px);
+  width: calc(100% + 24px);
+}
+.frame1437254033 > :global(.__wab_flex-container) > *,
+.frame1437254033 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame1437254033 > :global(.__wab_flex-container) > picture > img,
+.frame1437254033
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 24px;
+}
+.svg___4HgiO {
+  object-fit: cover;
+  max-width: 100%;
+  color: #999;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  flex-shrink: 0;
+  display: none;
+}
+.svg__sp5Fc {
+  object-fit: cover;
+  max-width: 100%;
+  width: 24px;
+  height: 24px;
+  display: block;
+  position: relative;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+.button:global(.__wab_instance):global(.__wab_instance) {
+  max-width: 100%;
+  width: 100%;
+  min-width: 320px;
+}
+.svg___4YObi {
+  position: relative;
+  height: 1em;
+}
+.svg__poiFs {
+  position: relative;
+  height: 1em;
+}
+.freeBox__yQfz {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 0;
+  padding: 32px;
+}

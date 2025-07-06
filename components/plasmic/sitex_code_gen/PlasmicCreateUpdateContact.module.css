@@ -1,0 +1,388 @@
+.crateStaff:global(.__wab_instance):global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
+.frame1437254016 {
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 64px 32px 24px;
+}
+.name {
+  display: block;
+  font-size: 20px;
+  font-family: "Manrope", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0em;
+  line-height: 1.5;
+  color: rgba(19, 16, 19, 1);
+  position: relative;
+}
+.frame1437254019 {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+}
+.frame1437254019 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: calc(0px - 24px);
+  width: calc(100% + 24px);
+}
+.frame1437254019 > :global(.__wab_flex-container) > *,
+.frame1437254019 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame1437254019 > :global(.__wab_flex-container) > picture > img,
+.frame1437254019
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 24px;
+}
+.svg__echtv {
+  object-fit: cover;
+  max-width: 100%;
+  color: #999;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  flex-shrink: 0;
+  display: none;
+}
+.svg__gsLyg {
+  object-fit: cover;
+  max-width: 100%;
+  width: 24px;
+  height: 24px;
+  display: block;
+  position: relative;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+.crateStaff .svg__gsLyg:hover {
+  color: var(--token-_2g_WANLrir5);
+}
+.form:global(.__wab_instance) {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: flex-start;
+  align-items: flex-start;
+  object-fit: cover;
+  align-self: stretch;
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  min-width: 600px;
+  flex-shrink: 0;
+  padding: 4px;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .form:global(.__wab_instance) {
+    min-width: 300px;
+  }
+}
+.formField__yo8Ux:global(.__wab_instance) {
+  width: 100%;
+  min-width: 0;
+}
+.text__cQvBh {
+  font-size: 14px;
+  color: var(--token-35GTvURIhf58);
+  font-weight: 700;
+  font-family: "Manrope", sans-serif;
+}
+.input:global(.__wab_instance) {
+  font-family: "Manrope", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  min-height: 40px;
+  max-width: 100%;
+  object-fit: cover;
+}
+.formField__fgVwe:global(.__wab_instance) {
+  width: 100%;
+  min-width: 0;
+}
+.text__r5O2U {
+  font-family: "Manrope", sans-serif;
+  font-weight: 700;
+  padding-top: 0px;
+  font-size: 14px;
+  font-style: normal;
+  color: var(--token-35GTvURIhf58);
+  text-align: left;
+  text-transform: none;
+  line-height: 1.5;
+  letter-spacing: normal;
+  white-space: pre-wrap;
+  user-select: text;
+  text-decoration-line: none !important;
+  text-overflow: clip !important;
+}
+.select2:global(.__wab_instance) {
+  max-width: 100%;
+  object-fit: cover;
+  font-family: "Manrope", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  min-height: 40px;
+  padding: 0px;
+}
+.select2 :global(.ant-select-selector):global(.ant-select-selector) {
+  font-size: var(--token-ZLaA054Tympa);
+  outline: none;
+}
+.pcls_skhrd5aBIEap {
+  font-size: var(--token-ZLaA054Tympa);
+  outline: none;
+}
+.select2__popup:global(.ant-select-dropdown) :global(.ant-select-item-option) {
+  font-size: var(--token-ZLaA054Tympa);
+  outline: none;
+}
+.formField__wVuBs:global(.__wab_instance) {
+  width: 100%;
+  min-width: 0;
+}
+.text__fAyFw {
+  font-size: 14px;
+  color: var(--token-35GTvURIhf58);
+  font-weight: 700;
+  font-family: "Manrope", sans-serif;
+  padding-right: 0px;
+}
+.input2:global(.__wab_instance) {
+  font-family: "Manrope", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  min-height: 40px;
+  max-width: 100%;
+  object-fit: cover;
+}
+.formField__u21Wy:global(.__wab_instance) {
+  width: 100%;
+  min-width: 0;
+}
+.text__uoMoq {
+  font-size: 14px;
+  color: var(--token-35GTvURIhf58);
+  font-weight: 700;
+  font-family: "Manrope", sans-serif;
+  padding-right: 0px;
+}
+.input4:global(.__wab_instance) {
+  font-family: "Manrope", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  min-height: 40px;
+  max-width: 100%;
+  object-fit: cover;
+}
+.formField__eRpEh:global(.__wab_instance) {
+  width: 100%;
+  min-width: 0;
+}
+.text__lz26R {
+  font-size: 14px;
+  color: var(--token-35GTvURIhf58);
+  font-weight: 700;
+  font-family: "Manrope", sans-serif;
+}
+.input7:global(.__wab_instance) {
+  font-family: "Manrope", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  min-height: 40px;
+  max-width: 100%;
+  object-fit: cover;
+}
+.formField__xTysh:global(.__wab_instance) {
+  width: 100%;
+  min-width: 0;
+}
+.text__lg7Ct {
+  font-size: 14px;
+  color: var(--token-35GTvURIhf58);
+  font-weight: 700;
+  font-family: "Manrope", sans-serif;
+}
+.input8:global(.__wab_instance) {
+  font-family: "Manrope", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  min-height: 40px;
+  max-width: 100%;
+  object-fit: cover;
+}
+.formField___4Nz3:global(.__wab_instance) {
+  width: 100%;
+  min-width: 0;
+}
+.text__o2Nli {
+  font-size: 14px;
+  color: var(--token-35GTvURIhf58);
+  font-weight: 700;
+  font-family: "Manrope", sans-serif;
+}
+.textArea:global(.__wab_instance) {
+  max-width: 100%;
+  object-fit: cover;
+  font-family: "Manrope", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  min-height: 40px;
+  padding: 0px 8px;
+}
+.formField__bu8Xb:global(.__wab_instance) {
+  width: 100%;
+  min-width: 0;
+}
+.text__saOLo {
+  font-size: 14px;
+  color: var(--token-35GTvURIhf58);
+  font-weight: 700;
+  font-family: "Manrope", sans-serif;
+  padding-right: 0px;
+}
+._switch:global(.__wab_instance):global(.__wab_instance) {
+  max-width: 100%;
+}
+.formField___1DWcw:global(.__wab_instance) {
+  width: 100%;
+  min-width: 0;
+}
+.text__bd5ZW {
+  font-size: 14px;
+  color: var(--token-35GTvURIhf58);
+  font-weight: 700;
+}
+.select:global(.__wab_instance) {
+  font-family: "Manrope", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  min-height: 40px;
+  max-width: 100%;
+  object-fit: cover;
+  padding: 0px;
+}
+.pcls_aactKHp4Adhl {
+  font-size: 14px;
+  outline: none;
+}
+.select__popup:global(.ant-select-dropdown) :global(.ant-select-item-option) {
+  font-size: 14px;
+  outline: none;
+}
+.select
+  :global(.ant-select-selector)
+  :global(.ant-select-selection-placeholder) {
+  font-size: 14px;
+  outline: none;
+}
+.select :global(.ant-select-selector):global(.ant-select-selector) {
+  font-size: 14px;
+  outline: none;
+}
+.formField__tuNau:global(.__wab_instance) {
+  width: 100%;
+  min-width: 0;
+}
+.text___2DOhw {
+  font-size: 14px;
+  color: var(--token-35GTvURIhf58);
+  font-weight: 700;
+  padding-right: 0px;
+}
+.upload:global(.__wab_instance) {
+  object-fit: cover;
+  height: 100%;
+  align-self: stretch;
+  min-height: 0;
+}
+.button__mgi0:global(.__wab_instance) {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  background: var(--token-zM3FM2gxAGbs);
+  min-width: 0;
+  min-height: 0;
+  padding: 24px;
+}
+.text__g1Ehr {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  padding-top: 0px;
+  font-family: var(--token-gJHLR6JwzS-t);
+  font-size: 14px;
+  font-weight: 700;
+  font-style: normal;
+  color: var(--token-35GTvURIhf58);
+  text-align: left;
+  text-transform: none;
+  line-height: 1.5;
+  letter-spacing: normal;
+  white-space: pre-wrap;
+  user-select: text;
+  text-decoration-line: none !important;
+  text-overflow: clip !important;
+  min-width: 0;
+}
+.text__cTif0 {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  padding-top: 0px;
+  font-size: 14px;
+  font-family: var(--token-gJHLR6JwzS-t);
+  font-weight: 400;
+  font-style: normal;
+  color: #535353;
+  text-align: center;
+  text-transform: none;
+  line-height: 1.5;
+  letter-spacing: normal;
+  white-space: pre-wrap;
+  user-select: text;
+  text-decoration-line: none !important;
+  text-overflow: clip !important;
+  min-width: 0;
+}
+.button__wv2ZM:global(.__wab_instance):global(.__wab_instance) {
+  max-width: 100%;
+  width: 100%;
+  min-width: 0;
+}
+.svg__kfCJf {
+  position: relative;
+  height: 1em;
+}
+.text__rpTu {
+  white-space: pre;
+}
+.svg__bYng {
+  position: relative;
+  height: 1em;
+}
+.freeBox {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 0;
+  padding: 32px;
+}

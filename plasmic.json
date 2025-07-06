@@ -1,0 +1,2681 @@
+{
+  "platform": "nextjs",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "public-files",
+    "publicDir": "../public",
+    "publicUrlPrefix": "/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "caTPwKxj5ZrD9LQ7DMdK4Z",
+      "projectApiToken": "vXGGQpdi9fhcncabBdg8DcMRUbkz0iRW6HS1jzQufQR6QH0MasPwr9SX7ap4SsK3xXwwXmzZtglWGe0Rm2nw",
+      "projectName": "plasmic-basic-components",
+      "version": ">0.0.0",
+      "cssFilePath": "plasmic/plasmic_basic_components/plasmic.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "CMDBvOhaI4s",
+          "name": "Iframe",
+          "displayName": "hostless-iframe",
+          "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
+        },
+        {
+          "id": "RhitNJW5Zu-",
+          "name": "Video",
+          "displayName": "hostless-html-video",
+          "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
+        },
+        {
+          "id": "PKldDYkH42",
+          "name": "Embed",
+          "displayName": "hostless-embed",
+          "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
+        },
+        {
+          "id": "D4RbnlpRXg3",
+          "name": "DataProvider",
+          "displayName": "hostless-data-provider",
+          "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
+        },
+        {
+          "id": "zlBHsvkFlN",
+          "name": "ConditionGuard",
+          "displayName": "hostless-condition-guard",
+          "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
+        },
+        {
+          "id": "K-mWGqrHefEp",
+          "name": "SideEffect",
+          "displayName": "hostless-side-effect",
+          "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
+        },
+        {
+          "id": "SpkzmXJqg27p",
+          "name": "Timer",
+          "displayName": "hostless-timer",
+          "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
+        }
+      ],
+      "customFunctions": []
+    },
+    {
+      "projectId": "vqeFwpZFQ6buChy6T9PGwQ",
+      "projectApiToken": "HoXrsW7thezPtv1YjHm4ylhJuxprHUDxJCCAqkbscy96N1h1mEgQ7wO2NZcpFk5lJnyvpOGcyI5XQsfu41Vg",
+      "projectName": "react-quill",
+      "version": ">0.0.0",
+      "cssFilePath": "plasmic/react_quill/plasmic.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "ttF1HVZMBGN",
+          "name": "Quill",
+          "displayName": "hostless-react-quill",
+          "componentImportPath": "@plasmicpkgs/react-quill",
+          "helper": {
+            "name": "quillHelpers",
+            "importPath": "@plasmicpkgs/react-quill"
+          }
+        }
+      ],
+      "customFunctions": []
+    },
+    {
+      "projectId": "gLnoj82AzKVVT7qXiqAbHD",
+      "projectApiToken": "30Q6Vm3wLmLUouXUphjiHN1eerUuQNmjcIHNiu6sFoeK8pIoi3LRDH2gMh9txlrZGCbOh9s0VaoZHqtvs3hQ",
+      "projectName": "plasmic-tabs",
+      "version": ">0.0.0",
+      "cssFilePath": "plasmic/plasmic_tabs/plasmic.module.css",
+      "components": [
+        {
+          "id": "lBHNzts6tFyj",
+          "name": "Button",
+          "type": "managed",
+          "projectId": "gLnoj82AzKVVT7qXiqAbHD",
+          "renderModuleFilePath": "plasmic/plasmic_tabs/PlasmicButton.tsx",
+          "importSpec": {
+            "modulePath": "Button.tsx"
+          },
+          "cssFilePath": "plasmic/plasmic_tabs/PlasmicButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "button"
+        }
+      ],
+      "icons": [
+        {
+          "id": "zq2s7N0xWucT",
+          "name": "CheckSvgIcon",
+          "moduleFilePath": "plasmic/plasmic_tabs/icons/PlasmicIcon__CheckSvg.tsx"
+        },
+        {
+          "id": "8K40faRNhuCj",
+          "name": "IconIcon",
+          "moduleFilePath": "plasmic/plasmic_tabs/icons/PlasmicIcon__Icon.tsx"
+        }
+      ],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "qT-BBamUwNg",
+          "name": "TabsContainer",
+          "displayName": "hostless-tabs-container",
+          "componentImportPath": "@plasmicpkgs/plasmic-tabs"
+        },
+        {
+          "id": "7uvxnLIBlo3",
+          "name": "TabUnderline",
+          "displayName": "hostless-tab-underline",
+          "componentImportPath": "@plasmicpkgs/plasmic-tabs"
+        },
+        {
+          "id": "5jaBI7A4_ak",
+          "name": "TabButton",
+          "displayName": "hostless-tab-button",
+          "componentImportPath": "@plasmicpkgs/plasmic-tabs"
+        },
+        {
+          "id": "KyRr6GQ_tPI",
+          "name": "TabContent",
+          "displayName": "hostless-tab-content",
+          "componentImportPath": "@plasmicpkgs/plasmic-tabs"
+        }
+      ],
+      "customFunctions": []
+    },
+    {
+      "projectId": "8PtdGodUbexNYgkuyBUcWu",
+      "projectApiToken": "34o5R5KswluuZ4sD83F88oQrcLWsNNeUpCptQ8Okf4hYqgjnHnX2idGAlhtB7WWQQelNAInf5XFazR1cGw",
+      "projectName": "plasmic-embed-css",
+      "version": ">0.0.0",
+      "cssFilePath": "plasmic/plasmic_embed_css/plasmic.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "plasmic/plasmic_embed_css/PlasmicGlobalContextsProvider.tsx",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "qF0uJxFztB",
+          "name": "EmbedCss",
+          "displayName": "global-embed-css",
+          "componentImportPath": "@plasmicpkgs/plasmic-embed-css"
+        }
+      ],
+      "customFunctions": []
+    },
+    {
+      "projectId": "ohDidvG9XsCeFumugENU3J",
+      "projectApiToken": "YE6pw0s6HZvyAZENjWdhh22CZUvZbVXVeOr7IxU58m9rwk2ITG1RfJGcJjzF2uEC7DCqa4PDzPP1UXxfKuuQ",
+      "projectName": "antd5 hostless",
+      "version": ">0.0.0",
+      "cssFilePath": "plasmic/antd_5_hostless/plasmic.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "plasmic/antd_5_hostless/PlasmicGlobalContextsProvider.tsx",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "OvH7ENd3m7ug",
+          "name": "AntdSelect",
+          "displayName": "plasmic-antd5-select",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerSelect"
+        },
+        {
+          "id": "ACzfHW-ZLLiW",
+          "name": "AntdOption",
+          "displayName": "plasmic-antd5-option",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerSelect"
+        },
+        {
+          "id": "UyLCOYx2BYc4",
+          "name": "AntdTable",
+          "displayName": "plasmic-antd5-table",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerTable"
+        },
+        {
+          "id": "OFZLDfR2iHmj",
+          "name": "AntdColumn",
+          "displayName": "plasmic-antd5-table-column",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerTable"
+        },
+        {
+          "id": "-EU4JlrV3jtw",
+          "name": "AntdColumnGroup",
+          "displayName": "plasmic-antd5-table-column-group",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerTable"
+        },
+        {
+          "id": "DmrLLHGTjGTE",
+          "name": "AntdConfigProvider",
+          "displayName": "plasmic-antd5-config-provider",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerConfigProvider"
+        },
+        {
+          "id": "aFHKFWNvs7",
+          "name": "AntdCheckbox",
+          "displayName": "plasmic-antd5-checkbox",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerCheckbox"
+        },
+        {
+          "id": "2bM6vBkaxc",
+          "name": "AntdCheckboxGroup",
+          "displayName": "plasmic-antd5-checkbox-group",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerCheckbox"
+        },
+        {
+          "id": "-CXVV9tXtP",
+          "name": "AntdRadio",
+          "displayName": "plasmic-antd5-radio",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerRadio"
+        },
+        {
+          "id": "C3Ce7Sqgay",
+          "name": "AntdRadioButton",
+          "displayName": "plasmic-antd5-radio-button",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerRadio"
+        },
+        {
+          "id": "PZQhrvIGy1",
+          "name": "AntdRadioGroup",
+          "displayName": "plasmic-antd5-radio-group",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerRadio"
+        },
+        {
+          "id": "xx93QbkHH5i",
+          "name": "AntdModal",
+          "displayName": "plasmic-antd5-modal",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerModal"
+        },
+        {
+          "id": "bx9Xzvf5_eu",
+          "name": "AntdButton",
+          "displayName": "plasmic-antd5-button",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerButton"
+        },
+        {
+          "id": "fo-n3xHvdqt",
+          "name": "AntdMenu",
+          "displayName": "plasmic-antd5-menu",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerMenu"
+        },
+        {
+          "id": "QSmezaW-Gyu",
+          "name": "AntdMenuItem",
+          "displayName": "plasmic-antd5-menu-item",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerMenu"
+        },
+        {
+          "id": "6ySly9jzXsR",
+          "name": "AntdMenuItemGroup",
+          "displayName": "plasmic-antd5-menu-item-group",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerMenu"
+        },
+        {
+          "id": "pwJcAbVYC4M",
+          "name": "AntdMenuDivider",
+          "displayName": "plasmic-antd5-menu-divider",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerMenu"
+        },
+        {
+          "id": "nL-8oPEfDNL",
+          "name": "AntdSubMenu",
+          "displayName": "plasmic-antd5-submenu",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerMenu"
+        },
+        {
+          "id": "zIDEYq9RgLG",
+          "name": "AntdDropdown",
+          "displayName": "plasmic-antd5-dropdown",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerDropdown"
+        },
+        {
+          "id": "5sJiSDZuAW",
+          "name": "AntdOptionGroup",
+          "displayName": "plasmic-antd5-option-group",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerSelect"
+        },
+        {
+          "id": "TgJFzUZpvQ",
+          "name": "FormWrapper",
+          "displayName": "plasmic-antd5-form",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/SchemaForm",
+          "helper": {
+            "name": "formHelpers",
+            "importPath": "@plasmicpkgs/antd5/skinny/Form"
+          }
+        },
+        {
+          "id": "EYHwZh9ILg",
+          "name": "FormItemWrapper",
+          "displayName": "plasmic-antd5-form-item",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/FormItem"
+        },
+        {
+          "id": "zEXrWX9naj",
+          "name": "FormGroup",
+          "displayName": "plasmic-antd5-form-group",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/FormGroup"
+        },
+        {
+          "id": "M2mN_XzxO4",
+          "name": "FormListWrapper",
+          "displayName": "plasmic-antd5-form-list",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/FormList"
+        },
+        {
+          "id": "Vf5hntD2SZ5",
+          "name": "AntdInput",
+          "displayName": "plasmic-antd5-input",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerInput",
+          "helper": {
+            "name": "inputHelpers",
+            "importPath": "@plasmicpkgs/antd5/skinny/registerInput"
+          }
+        },
+        {
+          "id": "RW4q13RFtAd",
+          "name": "AntdPassword",
+          "displayName": "plasmic-antd5-input-password",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerInput",
+          "helper": {
+            "name": "inputHelpers",
+            "importPath": "@plasmicpkgs/antd5/skinny/registerInput"
+          }
+        },
+        {
+          "id": "pTzGlMptTxd",
+          "name": "AntdTextArea",
+          "displayName": "plasmic-antd5-textarea",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerInput",
+          "helper": {
+            "name": "inputHelpers",
+            "importPath": "@plasmicpkgs/antd5/skinny/registerInput"
+          }
+        },
+        {
+          "id": "wxD5qjEe3pU",
+          "name": "AntdInputNumber",
+          "displayName": "plasmic-antd5-input-number",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerInput"
+        },
+        {
+          "id": "Zzbfw0tfhA",
+          "name": "UploadWrapper",
+          "displayName": "plasmic-antd5-upload",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerUpload"
+        },
+        {
+          "id": "-gkBqPikhk",
+          "name": "AntdSwitch",
+          "displayName": "plasmic-antd5-switch",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerSwitch"
+        },
+        {
+          "id": "lKdkQL67fv",
+          "name": "AntdDatePicker",
+          "displayName": "plasmic-antd5-date-picker",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerDatePicker",
+          "helper": {
+            "name": "datePickerHelpers",
+            "importPath": "@plasmicpkgs/antd5/skinny/registerDatePicker"
+          }
+        },
+        {
+          "id": "YcIbmJhMwB",
+          "name": "AntdColorPicker",
+          "displayName": "plasmic-antd5-color-picker",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerColorPicker"
+        },
+        {
+          "id": "Nb0bEUV6vm",
+          "name": "AntdDrawer",
+          "displayName": "plasmic-antd5-drawer",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerDrawer"
+        },
+        {
+          "id": "uIwOvA8Rbo",
+          "name": "AntdSteps",
+          "displayName": "plasmic-antd5-steps",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerSteps"
+        },
+        {
+          "id": "rdsGm3tzUj",
+          "name": "AntdTooltip",
+          "displayName": "plasmic-antd5-tooltip",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerTooltip"
+        },
+        {
+          "id": "nqcsn8n56U",
+          "name": "AntdAvatar",
+          "displayName": "plasmic-antd5-avatar",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerAvatar"
+        },
+        {
+          "id": "GuSPoNm_cBy",
+          "name": "AntdAvatarGroup",
+          "displayName": "plasmic-antd5-avatar-group",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerAvatar"
+        },
+        {
+          "id": "GDiBhO1FaQ",
+          "name": "AntdTree",
+          "displayName": "plasmic-antd5-tree",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerTree",
+          "helper": {
+            "name": "treeHelpers",
+            "importPath": "@plasmicpkgs/antd5/skinny/registerTree"
+          }
+        },
+        {
+          "id": "2Gn9Np0fVX",
+          "name": "AntdDirectoryTree",
+          "displayName": "plasmic-antd5-directory-tree",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerTree",
+          "helper": {
+            "name": "treeHelpers",
+            "importPath": "@plasmicpkgs/antd5/skinny/registerTree"
+          }
+        },
+        {
+          "id": "oPUhN99n4VXI",
+          "name": "AntdAccordion",
+          "displayName": "plasmic-antd5-collapse",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerCollapse",
+          "helper": {
+            "name": "accordionHelpers",
+            "importPath": "@plasmicpkgs/antd5/skinny/registerCollapse"
+          }
+        },
+        {
+          "id": "4mmDdnlyWx2k",
+          "name": "AntdAccordionItem",
+          "displayName": "plasmic-antd5-collapse-item",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerCollapse"
+        },
+        {
+          "id": "4y7SmGJoYukv",
+          "name": "AntdSingleCollapse",
+          "displayName": "plasmic-antd5-single-collapse",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerCollapse",
+          "helper": {
+            "name": "singleCollapseHelpers",
+            "importPath": "@plasmicpkgs/antd5/skinny/registerCollapse"
+          }
+        },
+        {
+          "id": "hkJfqlGnpchf",
+          "name": "AntdPopover",
+          "displayName": "plasmic-antd5-popover",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerPopover"
+        },
+        {
+          "id": "HV5Zx3YTIxFT",
+          "name": "AntdTabs",
+          "displayName": "plasmic-antd5-tabs",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerTabs"
+        },
+        {
+          "id": "OSD--ykMTE95",
+          "name": "AntdTabItem",
+          "displayName": "plasmic-antd5-tab-item",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerTabs"
+        },
+        {
+          "id": "S802VXcWSh0n",
+          "name": "AntdRate",
+          "displayName": "plasmic-antd5-rate",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerRate"
+        },
+        {
+          "id": "9HjEuAZYoz5P",
+          "name": "AntdDateRangePicker",
+          "displayName": "plasmic-antd5-date-range-picker",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerDateRangePicker",
+          "helper": {
+            "name": "dateRangePickerHelpers",
+            "importPath": "@plasmicpkgs/antd5/skinny/registerDateRangePicker"
+          }
+        },
+        {
+          "id": "SeYQPnK2Etda",
+          "name": "AntdSingleSlider",
+          "displayName": "plasmic-antd5-slider",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerSlider"
+        },
+        {
+          "id": "VvEzRJYSMImn",
+          "name": "AntdRangeSlider",
+          "displayName": "plasmic-antd5-range-slider",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerSlider",
+          "helper": {
+            "name": "rangeSliderHelpers",
+            "importPath": "@plasmicpkgs/antd5/skinny/registerSlider"
+          }
+        },
+        {
+          "id": "qUBr2ytCk1sn",
+          "name": "AntdSliderMark",
+          "displayName": "plasmic-antd5-slider-mark",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerSlider"
+        },
+        {
+          "id": "2lfDhkB3l-hf",
+          "name": "AntdSegmentedOption",
+          "displayName": "plasmic-antd5-segmented-option",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerSegmented"
+        },
+        {
+          "id": "hF7P_XBmSmah",
+          "name": "AntdSegmented",
+          "displayName": "plasmic-antd5-segmented",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerSegmented"
+        },
+        {
+          "id": "YczuxmmTqf82",
+          "name": "AntdProgress",
+          "displayName": "plasmic-antd5-progress",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerProgress"
+        },
+        {
+          "id": "zxit27ZPux0z",
+          "name": "AntdPagination",
+          "displayName": "plasmic-antd5-pagination",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerPagination",
+          "helper": {
+            "name": "paginationHelpers",
+            "importPath": "@plasmicpkgs/antd5/skinny/registerPagination"
+          }
+        },
+        {
+          "id": "Zjjf7sP4JdQI",
+          "name": "AntdBreadcrumb",
+          "displayName": "plasmic-antd5-breadcrumb",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerBreadcrumb"
+        },
+        {
+          "id": "2ZOevuBPH-SX",
+          "name": "AntdBreadcrumbItem",
+          "displayName": "plasmic-antd5-breadcrumb-item",
+          "componentImportPath": "@plasmicpkgs/antd5/skinny/registerBreadcrumb"
+        }
+      ],
+      "customFunctions": []
+    },
+    {
+      "projectId": "gmeH6XgPaBtkt51HunAo4g",
+      "projectApiToken": "LBbn8U2dmbpX9oeuRsYNyEKki39EXydGQgs9vBvR5sLHfGEZsK4owvOj7Q7SnflW4ASIEdLFAeeoxGxXZ8dJtA",
+      "projectName": "react-aria",
+      "version": ">0.0.0",
+      "cssFilePath": "plasmic/react_aria/plasmic.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "QswWn7k1U7ET",
+          "name": "BaseSelect",
+          "displayName": "plasmic-react-aria-select",
+          "componentImportPath": "@plasmicpkgs/react-aria/skinny/registerSelect"
+        },
+        {
+          "id": "XEco5EOfFG7-",
+          "name": "BaseSelectValue",
+          "displayName": "plasmic-react-aria-select-value",
+          "componentImportPath": "@plasmicpkgs/react-aria/skinny/registerSelect"
+        },
+        {
+          "id": "YsCvUUXRgPKy",
+          "name": "BaseComboBox",
+          "displayName": "plasmic-react-aria-combobox",
+          "componentImportPath": "@plasmicpkgs/react-aria/skinny/registerComboBox"
+        },
+        {
+          "id": "HvUCgqiPzPEX",
+          "name": "BaseButton",
+          "displayName": "plasmic-react-aria-button",
+          "componentImportPath": "@plasmicpkgs/react-aria/skinny/registerButton"
+        },
+        {
+          "id": "me7KTdO_KIkf",
+          "name": "BaseLabel",
+          "displayName": "plasmic-react-aria-label",
+          "componentImportPath": "@plasmicpkgs/react-aria/skinny/registerLabel"
+        },
+        {
+          "id": "4sLOTHHFrzj2",
+          "name": "BaseListBox",
+          "displayName": "plasmic-react-aria-listbox",
+          "componentImportPath": "@plasmicpkgs/react-aria/skinny/registerListBox",
+          "helper": {
+            "name": "listboxHelpers",
+            "importPath": "@plasmicpkgs/react-aria/skinny/registerListBox"
+          }
+        },
+        {
+          "id": "PoAYkttnnKt8",
+          "name": "BaseListBoxItem",
+          "displayName": "plasmic-react-aria-listbox-item",
+          "componentImportPath": "@plasmicpkgs/react-aria/skinny/registerListBoxItem"
+        },
+        {
+          "id": "zIp51FL8KHRa",
+          "name": "BasePopover",
+          "displayName": "plasmic-react-aria-popover",
+          "componentImportPath": "@plasmicpkgs/react-aria/skinny/registerPopover"
+        },
+        {
+          "id": "P1zT4UvhSciD",
+          "name": "BaseInput",
+          "displayName": "plasmic-react-aria-input",
+          "componentImportPath": "@plasmicpkgs/react-aria/skinny/registerInput",
+          "helper": {
+            "name": "inputHelpers",
+            "importPath": "@plasmicpkgs/react-aria/skinny/registerInput"
+          }
+        },
+        {
+          "id": "IRebgwZ5KOxr",
+          "name": "BaseSwitch",
+          "displayName": "plasmic-react-aria-switch",
+          "componentImportPath": "@plasmicpkgs/react-aria/skinny/registerSwitch"
+        },
+        {
+          "id": "t7JSdrAmVPUA",
+          "name": "BaseCheckbox",
+          "displayName": "plasmic-react-aria-checkbox",
+          "componentImportPath": "@plasmicpkgs/react-aria/skinny/registerCheckbox"
+        },
+        {
+          "id": "J6dFzk9sLhiL",
+          "name": "BaseCheckboxGroup",
+          "displayName": "plasmic-react-aria-checkboxGroup",
+          "componentImportPath": "@plasmicpkgs/react-aria/skinny/registerCheckboxGroup"
+        },
+        {
+          "id": "YiLyhyFTHV9y",
+          "name": "BaseRadioGroup",
+          "displayName": "plasmic-react-aria-radioGroup",
+          "componentImportPath": "@plasmicpkgs/react-aria/skinny/registerRadioGroup"
+        },
+        {
+          "id": "L01PBsCNswpe",
+          "name": "BaseRadio",
+          "displayName": "plasmic-react-aria-radioGroup-radio",
+          "componentImportPath": "@plasmicpkgs/react-aria/skinny/registerRadio"
+        },
+        {
+          "id": "rMswhyNZvi7B",
+          "name": "BaseTextField",
+          "displayName": "plasmic-react-aria-textField",
+          "componentImportPath": "@plasmicpkgs/react-aria/skinny/registerTextField"
+        },
+        {
+          "id": "sHCwEg6H_Y31",
+          "name": "BaseModal",
+          "displayName": "plasmic-react-aria-modal",
+          "componentImportPath": "@plasmicpkgs/react-aria/skinny/registerModal"
+        },
+        {
+          "id": "_Qjx-IzfLF6l",
+          "name": "BaseTooltip",
+          "displayName": "plasmic-react-aria-tooltip",
+          "componentImportPath": "@plasmicpkgs/react-aria/skinny/registerTooltip"
+        },
+        {
+          "id": "kp28MgccfwlQ",
+          "name": "BaseDialogTrigger",
+          "displayName": "plasmic-react-aria-dialogTrigger",
+          "componentImportPath": "@plasmicpkgs/react-aria/skinny/registerDialogTrigger"
+        },
+        {
+          "id": "51hRux-iu0RF",
+          "name": "BaseText",
+          "displayName": "plasmic-react-aria-text",
+          "componentImportPath": "@plasmicpkgs/react-aria/skinny/registerText"
+        },
+        {
+          "id": "-_rmqfmyqbxd",
+          "name": "BaseText",
+          "displayName": "plasmic-react-aria-description",
+          "componentImportPath": "@plasmicpkgs/react-aria/skinny/registerText"
+        },
+        {
+          "id": "iIIdXu16I-k-",
+          "name": "BaseSection",
+          "displayName": "plasmic-react-aria-listbox-section",
+          "componentImportPath": "@plasmicpkgs/react-aria/skinny/registerSection"
+        },
+        {
+          "id": "kv1js5i5hCxL",
+          "name": "BaseSlider",
+          "displayName": "plasmic-react-aria-slider",
+          "componentImportPath": "@plasmicpkgs/react-aria/skinny/registerSlider"
+        },
+        {
+          "id": "ZoPZHoboZWhP",
+          "name": "BaseSliderOutput",
+          "displayName": "plasmic-react-aria-slider-sliderOutput",
+          "componentImportPath": "@plasmicpkgs/react-aria/skinny/registerSliderOutput"
+        },
+        {
+          "id": "kiBpPWTzQmrA",
+          "name": "BaseSliderThumb",
+          "displayName": "plasmic-react-aria-slider-sliderThumb",
+          "componentImportPath": "@plasmicpkgs/react-aria/skinny/registerSliderThumb"
+        },
+        {
+          "id": "flW7Lvcc_jyV",
+          "name": "BaseSliderTrack",
+          "displayName": "plasmic-react-aria-slider-sliderTrack",
+          "componentImportPath": "@plasmicpkgs/react-aria/skinny/registerSliderTrack"
+        },
+        {
+          "id": "kbh41PnPdelo",
+          "name": "BaseSlider",
+          "displayName": "plasmic-react-aria-slider-range-slider",
+          "componentImportPath": "@plasmicpkgs/react-aria/skinny/registerSlider"
+        },
+        {
+          "id": "FCiuD5hxcsIL",
+          "name": "BaseHeading",
+          "displayName": "plasmic-react-aria-heading",
+          "componentImportPath": "@plasmicpkgs/react-aria/skinny/registerHeading"
+        },
+        {
+          "id": "z-WtOn_lG8-p",
+          "name": "BaseTextArea",
+          "displayName": "plasmic-react-aria-textarea",
+          "componentImportPath": "@plasmicpkgs/react-aria/skinny/registerTextArea",
+          "helper": {
+            "name": "inputHelpers",
+            "importPath": "@plasmicpkgs/react-aria/skinny/registerTextArea"
+          }
+        },
+        {
+          "id": "ve6CbDRk1Jw-",
+          "name": "BaseOverlayArrow",
+          "displayName": "plasmic-react-aria-overlayArrow",
+          "componentImportPath": "@plasmicpkgs/react-aria/skinny/registerOverlayArrow"
+        },
+        {
+          "id": "xPmAZLS8Wf-7",
+          "name": "BaseDialog",
+          "displayName": "plasmic-react-aria-dialog",
+          "componentImportPath": "@plasmicpkgs/react-aria/skinny/registerDialog"
+        }
+      ],
+      "customFunctions": []
+    },
+    {
+      "projectId": "341WB3S6fAjbZggAzyKhr1",
+      "projectApiToken": "bINEJmBvqCc94Wa9RlDOoVIfqmeMTbJBTVMEfWcJJaQ53gYnhMmvAu7iHelA1UqZX6hihOn96epdygtA2qg",
+      "projectName": "Sitex - CodeGen",
+      "version": "latest",
+      "cssFilePath": "plasmic/sitex_code_gen/plasmic.module.css",
+      "components": [
+        {
+          "id": "6er0_CEeOues",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "341WB3S6fAjbZggAzyKhr1",
+          "renderModuleFilePath": "plasmic/sitex_code_gen/PlasmicHomepage.tsx",
+          "importSpec": {
+            "modulePath": "../pages/index.tsx"
+          },
+          "cssFilePath": "plasmic/sitex_code_gen/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/"
+        },
+        {
+          "id": "PS6da-nNVzzU",
+          "name": "Login",
+          "type": "managed",
+          "projectId": "341WB3S6fAjbZggAzyKhr1",
+          "renderModuleFilePath": "plasmic/sitex_code_gen/PlasmicLogin.tsx",
+          "importSpec": {
+            "modulePath": "../pages/login.tsx"
+          },
+          "cssFilePath": "plasmic/sitex_code_gen/PlasmicLogin.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/login"
+        },
+        {
+          "id": "VbduCGwqveeL",
+          "name": "Signup",
+          "type": "managed",
+          "projectId": "341WB3S6fAjbZggAzyKhr1",
+          "renderModuleFilePath": "plasmic/sitex_code_gen/PlasmicSignup.tsx",
+          "importSpec": {
+            "modulePath": "../pages/signup.tsx"
+          },
+          "cssFilePath": "plasmic/sitex_code_gen/PlasmicSignup.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/signup"
+        },
+        {
+          "id": "lcnlii-Mi9bF",
+          "name": "Button",
+          "type": "managed",
+          "projectId": "341WB3S6fAjbZggAzyKhr1",
+          "renderModuleFilePath": "plasmic/sitex_code_gen/PlasmicButton.tsx",
+          "importSpec": {
+            "modulePath": "Button.tsx"
+          },
+          "cssFilePath": "plasmic/sitex_code_gen/PlasmicButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "i_IQHyStABS0",
+          "name": "ResetPassword",
+          "type": "managed",
+          "projectId": "341WB3S6fAjbZggAzyKhr1",
+          "renderModuleFilePath": "plasmic/sitex_code_gen/PlasmicResetPassword.tsx",
+          "importSpec": {
+            "modulePath": "../pages/reset-password/[recovery_token].tsx"
+          },
+          "cssFilePath": "plasmic/sitex_code_gen/PlasmicResetPassword.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/reset-password/[recovery_token]"
+        },
+        {
+          "id": "fEg2J73XB5Qp",
+          "name": "ForgotPassword",
+          "type": "managed",
+          "projectId": "341WB3S6fAjbZggAzyKhr1",
+          "renderModuleFilePath": "plasmic/sitex_code_gen/PlasmicForgotPassword.tsx",
+          "importSpec": {
+            "modulePath": "../pages/forgot-password.tsx"
+          },
+          "cssFilePath": "plasmic/sitex_code_gen/PlasmicForgotPassword.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/forgot-password"
+        },
+        {
+          "id": "P7MLNCNmfe0b",
+          "name": "LeftMenu",
+          "type": "managed",
+          "projectId": "341WB3S6fAjbZggAzyKhr1",
+          "renderModuleFilePath": "plasmic/sitex_code_gen/PlasmicLeftMenu.tsx",
+          "importSpec": {
+            "modulePath": "LeftMenu.tsx"
+          },
+          "cssFilePath": "plasmic/sitex_code_gen/PlasmicLeftMenu.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "34kdC-03x8MN",
+          "name": "ButtonLeftMenuSauv",
+          "type": "managed",
+          "projectId": "341WB3S6fAjbZggAzyKhr1",
+          "renderModuleFilePath": "plasmic/sitex_code_gen/PlasmicButtonLeftMenuSauv.tsx",
+          "importSpec": {
+            "modulePath": "ButtonLeftMenuSauv.tsx"
+          },
+          "cssFilePath": "plasmic/sitex_code_gen/PlasmicButtonLeftMenuSauv.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "2eAt6bzh0iAt",
+          "name": "Header",
+          "type": "managed",
+          "projectId": "341WB3S6fAjbZggAzyKhr1",
+          "renderModuleFilePath": "plasmic/sitex_code_gen/PlasmicHeader.tsx",
+          "importSpec": {
+            "modulePath": "Header.tsx"
+          },
+          "cssFilePath": "plasmic/sitex_code_gen/PlasmicHeader.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "vbFY8uMVvGtl",
+          "name": "Operations",
+          "type": "managed",
+          "projectId": "341WB3S6fAjbZggAzyKhr1",
+          "renderModuleFilePath": "plasmic/sitex_code_gen/PlasmicOperations.tsx",
+          "importSpec": {
+            "modulePath": "../pages/operations.tsx"
+          },
+          "cssFilePath": "plasmic/sitex_code_gen/PlasmicOperations.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/operations"
+        },
+        {
+          "id": "2dhqWpUZxzEb",
+          "name": "Modal",
+          "type": "managed",
+          "projectId": "341WB3S6fAjbZggAzyKhr1",
+          "renderModuleFilePath": "plasmic/sitex_code_gen/PlasmicModal.tsx",
+          "importSpec": {
+            "modulePath": "Modal.tsx"
+          },
+          "cssFilePath": "plasmic/sitex_code_gen/PlasmicModal.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "4P660rZYzasJ",
+          "name": "MainCourante",
+          "type": "managed",
+          "projectId": "341WB3S6fAjbZggAzyKhr1",
+          "renderModuleFilePath": "plasmic/sitex_code_gen/PlasmicMainCourante.tsx",
+          "importSpec": {
+            "modulePath": "../pages/main_courante.tsx"
+          },
+          "cssFilePath": "plasmic/sitex_code_gen/PlasmicMainCourante.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/main_courante"
+        },
+        {
+          "id": "IH3amG0RQCH4",
+          "name": "Modeles",
+          "type": "managed",
+          "projectId": "341WB3S6fAjbZggAzyKhr1",
+          "renderModuleFilePath": "plasmic/sitex_code_gen/PlasmicModeles.tsx",
+          "importSpec": {
+            "modulePath": "../pages/modeles.tsx"
+          },
+          "cssFilePath": "plasmic/sitex_code_gen/PlasmicModeles.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/modeles"
+        },
+        {
+          "id": "_ocpplg0OoTw",
+          "name": "BilanGeneral",
+          "type": "managed",
+          "projectId": "341WB3S6fAjbZggAzyKhr1",
+          "renderModuleFilePath": "plasmic/sitex_code_gen/PlasmicBilanGeneral.tsx",
+          "importSpec": {
+            "modulePath": "../pages/bilan_retex_general.tsx"
+          },
+          "cssFilePath": "plasmic/sitex_code_gen/PlasmicBilanGeneral.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/bilan_retex_general"
+        },
+        {
+          "id": "qR-a576Rc2ev",
+          "name": "Positions",
+          "type": "managed",
+          "projectId": "341WB3S6fAjbZggAzyKhr1",
+          "renderModuleFilePath": "plasmic/sitex_code_gen/PlasmicPositions.tsx",
+          "importSpec": {
+            "modulePath": "../pages/positions.tsx"
+          },
+          "cssFilePath": "plasmic/sitex_code_gen/PlasmicPositions.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/positions"
+        },
+        {
+          "id": "G-3mJK3jKJkK",
+          "name": "Annuaire",
+          "type": "managed",
+          "projectId": "341WB3S6fAjbZggAzyKhr1",
+          "renderModuleFilePath": "plasmic/sitex_code_gen/PlasmicAnnuaire.tsx",
+          "importSpec": {
+            "modulePath": "../pages/annuaire.tsx"
+          },
+          "cssFilePath": "plasmic/sitex_code_gen/PlasmicAnnuaire.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/annuaire"
+        },
+        {
+          "id": "xPKP3jAplNQg",
+          "name": "Parametres",
+          "type": "managed",
+          "projectId": "341WB3S6fAjbZggAzyKhr1",
+          "renderModuleFilePath": "plasmic/sitex_code_gen/PlasmicParametres.tsx",
+          "importSpec": {
+            "modulePath": "../pages/parametres.tsx"
+          },
+          "cssFilePath": "plasmic/sitex_code_gen/PlasmicParametres.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/parametres"
+        },
+        {
+          "id": "FRsquRn9mRjL",
+          "name": "Label",
+          "type": "managed",
+          "projectId": "341WB3S6fAjbZggAzyKhr1",
+          "renderModuleFilePath": "plasmic/sitex_code_gen/PlasmicLabel.tsx",
+          "importSpec": {
+            "modulePath": "Label.tsx"
+          },
+          "cssFilePath": "plasmic/sitex_code_gen/PlasmicLabel.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "lm9M4C5ynpU1",
+          "name": "TextInput",
+          "type": "managed",
+          "projectId": "341WB3S6fAjbZggAzyKhr1",
+          "renderModuleFilePath": "plasmic/sitex_code_gen/PlasmicTextInput.tsx",
+          "importSpec": {
+            "modulePath": "TextInput.tsx"
+          },
+          "cssFilePath": "plasmic/sitex_code_gen/PlasmicTextInput.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "lhUOZcKCH_AK",
+          "name": "TextAreaInput",
+          "type": "managed",
+          "projectId": "341WB3S6fAjbZggAzyKhr1",
+          "renderModuleFilePath": "plasmic/sitex_code_gen/PlasmicTextAreaInput.tsx",
+          "importSpec": {
+            "modulePath": "TextAreaInput.tsx"
+          },
+          "cssFilePath": "plasmic/sitex_code_gen/PlasmicTextAreaInput.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "vg7f1wpordyx",
+          "name": "Description",
+          "type": "managed",
+          "projectId": "341WB3S6fAjbZggAzyKhr1",
+          "renderModuleFilePath": "plasmic/sitex_code_gen/PlasmicDescription.tsx",
+          "importSpec": {
+            "modulePath": "Description.tsx"
+          },
+          "cssFilePath": "plasmic/sitex_code_gen/PlasmicDescription.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "cWfDny9pffbd",
+          "name": "TextField",
+          "type": "managed",
+          "projectId": "341WB3S6fAjbZggAzyKhr1",
+          "renderModuleFilePath": "plasmic/sitex_code_gen/PlasmicTextField.tsx",
+          "importSpec": {
+            "modulePath": "TextField.tsx"
+          },
+          "cssFilePath": "plasmic/sitex_code_gen/PlasmicTextField.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "8tg49zFadB9H",
+          "name": "MenuItem",
+          "type": "managed",
+          "projectId": "341WB3S6fAjbZggAzyKhr1",
+          "renderModuleFilePath": "plasmic/sitex_code_gen/PlasmicMenuItem.tsx",
+          "importSpec": {
+            "modulePath": "MenuItem.tsx"
+          },
+          "cssFilePath": "plasmic/sitex_code_gen/PlasmicMenuItem.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "frqO9_b7OdPY",
+          "name": "MenuSection",
+          "type": "managed",
+          "projectId": "341WB3S6fAjbZggAzyKhr1",
+          "renderModuleFilePath": "plasmic/sitex_code_gen/PlasmicMenuSection.tsx",
+          "importSpec": {
+            "modulePath": "MenuSection.tsx"
+          },
+          "cssFilePath": "plasmic/sitex_code_gen/PlasmicMenuSection.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "AWrql9xy52fI",
+          "name": "MenuPopover",
+          "type": "managed",
+          "projectId": "341WB3S6fAjbZggAzyKhr1",
+          "renderModuleFilePath": "plasmic/sitex_code_gen/PlasmicMenuPopover.tsx",
+          "importSpec": {
+            "modulePath": "MenuPopover.tsx"
+          },
+          "cssFilePath": "plasmic/sitex_code_gen/PlasmicMenuPopover.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "a2MEYF-CO9nX",
+          "name": "Select",
+          "type": "managed",
+          "projectId": "341WB3S6fAjbZggAzyKhr1",
+          "renderModuleFilePath": "plasmic/sitex_code_gen/PlasmicSelect.tsx",
+          "importSpec": {
+            "modulePath": "Select.tsx"
+          },
+          "cssFilePath": "plasmic/sitex_code_gen/PlasmicSelect.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "1DtyqfJ-0fBv",
+          "name": "Runsheet",
+          "type": "managed",
+          "projectId": "341WB3S6fAjbZggAzyKhr1",
+          "renderModuleFilePath": "plasmic/sitex_code_gen/PlasmicRunsheet.tsx",
+          "importSpec": {
+            "modulePath": "../pages/runsheet/[operation_id].tsx"
+          },
+          "cssFilePath": "plasmic/sitex_code_gen/PlasmicRunsheet.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/runsheet/[operation_id]"
+        },
+        {
+          "id": "x-phPVP8sWsV",
+          "name": "BottomMenu",
+          "type": "managed",
+          "projectId": "341WB3S6fAjbZggAzyKhr1",
+          "renderModuleFilePath": "plasmic/sitex_code_gen/PlasmicBottomMenu.tsx",
+          "importSpec": {
+            "modulePath": "BottomMenu.tsx"
+          },
+          "cssFilePath": "plasmic/sitex_code_gen/PlasmicBottomMenu.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "JyCXAdKcNiAC",
+          "name": "ButtonBottomMenu",
+          "type": "managed",
+          "projectId": "341WB3S6fAjbZggAzyKhr1",
+          "renderModuleFilePath": "plasmic/sitex_code_gen/PlasmicButtonBottomMenu.tsx",
+          "importSpec": {
+            "modulePath": "ButtonBottomMenu.tsx"
+          },
+          "cssFilePath": "plasmic/sitex_code_gen/PlasmicButtonBottomMenu.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "-lmfrn-r2gVM",
+          "name": "Modele",
+          "type": "managed",
+          "projectId": "341WB3S6fAjbZggAzyKhr1",
+          "renderModuleFilePath": "plasmic/sitex_code_gen/PlasmicModele.tsx",
+          "importSpec": {
+            "modulePath": "../pages/modele/[model_id].tsx"
+          },
+          "cssFilePath": "plasmic/sitex_code_gen/PlasmicModele.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/modele/[model_id]"
+        },
+        {
+          "id": "kvtu7IVvZKcp",
+          "name": "File",
+          "type": "managed",
+          "projectId": "341WB3S6fAjbZggAzyKhr1",
+          "renderModuleFilePath": "plasmic/sitex_code_gen/PlasmicFile.tsx",
+          "importSpec": {
+            "modulePath": "File.tsx"
+          },
+          "cssFilePath": "plasmic/sitex_code_gen/PlasmicFile.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "yJ0lhUA57Q_F",
+          "name": "Signalement",
+          "type": "managed",
+          "projectId": "341WB3S6fAjbZggAzyKhr1",
+          "renderModuleFilePath": "plasmic/sitex_code_gen/PlasmicSignalement.tsx",
+          "importSpec": {
+            "modulePath": "../pages/signalement.tsx"
+          },
+          "cssFilePath": "plasmic/sitex_code_gen/PlasmicSignalement.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/signalement"
+        },
+        {
+          "id": "zV_rzxoZsY7r",
+          "name": "CreateTask",
+          "type": "managed",
+          "projectId": "341WB3S6fAjbZggAzyKhr1",
+          "renderModuleFilePath": "plasmic/sitex_code_gen/PlasmicCreateTask.tsx",
+          "importSpec": {
+            "modulePath": "CreateTask.tsx"
+          },
+          "cssFilePath": "plasmic/sitex_code_gen/PlasmicCreateTask.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "HVRo_Ra5E0gW",
+          "name": "CreateDispo",
+          "type": "managed",
+          "projectId": "341WB3S6fAjbZggAzyKhr1",
+          "renderModuleFilePath": "plasmic/sitex_code_gen/PlasmicCreateDispo.tsx",
+          "importSpec": {
+            "modulePath": "CreateDispo.tsx"
+          },
+          "cssFilePath": "plasmic/sitex_code_gen/PlasmicCreateDispo.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "q0IMTvls8iIv",
+          "name": "Tab",
+          "type": "managed",
+          "projectId": "341WB3S6fAjbZggAzyKhr1",
+          "renderModuleFilePath": "plasmic/sitex_code_gen/PlasmicTab.tsx",
+          "importSpec": {
+            "modulePath": "Tab.tsx"
+          },
+          "cssFilePath": "plasmic/sitex_code_gen/PlasmicTab.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "dNZpqitvFdjI",
+          "name": "UpdateTask",
+          "type": "managed",
+          "projectId": "341WB3S6fAjbZggAzyKhr1",
+          "renderModuleFilePath": "plasmic/sitex_code_gen/PlasmicUpdateTask.tsx",
+          "importSpec": {
+            "modulePath": "UpdateTask.tsx"
+          },
+          "cssFilePath": "plasmic/sitex_code_gen/PlasmicUpdateTask.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "gIRAoWCoKmMg",
+          "name": "UpdateDispo",
+          "type": "managed",
+          "projectId": "341WB3S6fAjbZggAzyKhr1",
+          "renderModuleFilePath": "plasmic/sitex_code_gen/PlasmicUpdateDispo.tsx",
+          "importSpec": {
+            "modulePath": "UpdateDispo.tsx"
+          },
+          "cssFilePath": "plasmic/sitex_code_gen/PlasmicUpdateDispo.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "fzfVKlUA83rn",
+          "name": "Radio",
+          "type": "managed",
+          "projectId": "341WB3S6fAjbZggAzyKhr1",
+          "renderModuleFilePath": "plasmic/sitex_code_gen/PlasmicRadio.tsx",
+          "importSpec": {
+            "modulePath": "Radio.tsx"
+          },
+          "cssFilePath": "plasmic/sitex_code_gen/PlasmicRadio.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "QA-Gc8H2apHJ",
+          "name": "Checkbox",
+          "type": "managed",
+          "projectId": "341WB3S6fAjbZggAzyKhr1",
+          "renderModuleFilePath": "plasmic/sitex_code_gen/PlasmicCheckbox.tsx",
+          "importSpec": {
+            "modulePath": "Checkbox.tsx"
+          },
+          "cssFilePath": "plasmic/sitex_code_gen/PlasmicCheckbox.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "qFrCbEPqodnx",
+          "name": "CreateUpdateStaff",
+          "type": "managed",
+          "projectId": "341WB3S6fAjbZggAzyKhr1",
+          "renderModuleFilePath": "plasmic/sitex_code_gen/PlasmicCreateUpdateStaff.tsx",
+          "importSpec": {
+            "modulePath": "CreateUpdateStaff.tsx"
+          },
+          "cssFilePath": "plasmic/sitex_code_gen/PlasmicCreateUpdateStaff.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "rT0qJviA0c4n",
+          "name": "CreateUpdateContact",
+          "type": "managed",
+          "projectId": "341WB3S6fAjbZggAzyKhr1",
+          "renderModuleFilePath": "plasmic/sitex_code_gen/PlasmicCreateUpdateContact.tsx",
+          "importSpec": {
+            "modulePath": "CreateUpdateContact.tsx"
+          },
+          "cssFilePath": "plasmic/sitex_code_gen/PlasmicCreateUpdateContact.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "3J76zoPpzUT-",
+          "name": "Chip",
+          "type": "managed",
+          "projectId": "341WB3S6fAjbZggAzyKhr1",
+          "renderModuleFilePath": "plasmic/sitex_code_gen/PlasmicChip.tsx",
+          "importSpec": {
+            "modulePath": "Chip.tsx"
+          },
+          "cssFilePath": "plasmic/sitex_code_gen/PlasmicChip.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "UEgI-shY7DeV",
+          "name": "Pagination",
+          "type": "managed",
+          "projectId": "341WB3S6fAjbZggAzyKhr1",
+          "renderModuleFilePath": "plasmic/sitex_code_gen/PlasmicPagination.tsx",
+          "importSpec": {
+            "modulePath": "Pagination.tsx"
+          },
+          "cssFilePath": "plasmic/sitex_code_gen/PlasmicPagination.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "nnrdkCEc-MA-",
+          "name": "SliderThumb",
+          "type": "managed",
+          "projectId": "341WB3S6fAjbZggAzyKhr1",
+          "renderModuleFilePath": "plasmic/sitex_code_gen/PlasmicSliderThumb.tsx",
+          "importSpec": {
+            "modulePath": "SliderThumb.tsx"
+          },
+          "cssFilePath": "plasmic/sitex_code_gen/PlasmicSliderThumb.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "POZSdLevlGmy",
+          "name": "Slider",
+          "type": "managed",
+          "projectId": "341WB3S6fAjbZggAzyKhr1",
+          "renderModuleFilePath": "plasmic/sitex_code_gen/PlasmicSlider.tsx",
+          "importSpec": {
+            "modulePath": "Slider.tsx"
+          },
+          "cssFilePath": "plasmic/sitex_code_gen/PlasmicSlider.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "kl0Ns_gglxMm",
+          "name": "UserInvite",
+          "type": "managed",
+          "projectId": "341WB3S6fAjbZggAzyKhr1",
+          "renderModuleFilePath": "plasmic/sitex_code_gen/PlasmicUserInvite.tsx",
+          "importSpec": {
+            "modulePath": "../pages/user-invite.tsx"
+          },
+          "cssFilePath": "plasmic/sitex_code_gen/PlasmicUserInvite.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/user-invite"
+        },
+        {
+          "id": "UaftfvqN7siX",
+          "name": "Switch",
+          "type": "managed",
+          "projectId": "341WB3S6fAjbZggAzyKhr1",
+          "renderModuleFilePath": "plasmic/sitex_code_gen/PlasmicSwitch.tsx",
+          "importSpec": {
+            "modulePath": "Switch.tsx"
+          },
+          "cssFilePath": "plasmic/sitex_code_gen/PlasmicSwitch.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "fWjlLt6IwrU8",
+          "name": "LeftMenu2",
+          "type": "managed",
+          "projectId": "341WB3S6fAjbZggAzyKhr1",
+          "renderModuleFilePath": "plasmic/sitex_code_gen/PlasmicLeftMenu2.tsx",
+          "importSpec": {
+            "modulePath": "LeftMenu2.tsx"
+          },
+          "cssFilePath": "plasmic/sitex_code_gen/PlasmicLeftMenu2.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "ksk0caXhHiA4",
+          "name": "ButtonLeftMenu",
+          "type": "managed",
+          "projectId": "341WB3S6fAjbZggAzyKhr1",
+          "renderModuleFilePath": "plasmic/sitex_code_gen/PlasmicButtonLeftMenu.tsx",
+          "importSpec": {
+            "modulePath": "ButtonLeftMenu.tsx"
+          },
+          "cssFilePath": "plasmic/sitex_code_gen/PlasmicButtonLeftMenu.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "Q2bN9z8H_VHS",
+          "name": "LeftMenuSauv",
+          "type": "managed",
+          "projectId": "341WB3S6fAjbZggAzyKhr1",
+          "renderModuleFilePath": "plasmic/sitex_code_gen/PlasmicLeftMenuSauv.tsx",
+          "importSpec": {
+            "modulePath": "LeftMenuSauv.tsx"
+          },
+          "cssFilePath": "plasmic/sitex_code_gen/PlasmicLeftMenuSauv.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "Iobg_4d9SLq2",
+          "name": "ButtonDeconnection",
+          "type": "managed",
+          "projectId": "341WB3S6fAjbZggAzyKhr1",
+          "renderModuleFilePath": "plasmic/sitex_code_gen/PlasmicButtonDeconnection.tsx",
+          "importSpec": {
+            "modulePath": "ButtonDeconnection.tsx"
+          },
+          "cssFilePath": "plasmic/sitex_code_gen/PlasmicButtonDeconnection.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "6yOmr8Bxvd9T",
+          "name": "BilanOperations",
+          "type": "managed",
+          "projectId": "341WB3S6fAjbZggAzyKhr1",
+          "renderModuleFilePath": "plasmic/sitex_code_gen/PlasmicBilanOperations.tsx",
+          "importSpec": {
+            "modulePath": "../pages/bilan_retex_operations.tsx"
+          },
+          "cssFilePath": "plasmic/sitex_code_gen/PlasmicBilanOperations.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/bilan_retex_operations"
+        },
+        {
+          "id": "AY28a70OS2RI",
+          "name": "CreateUpdateCompany",
+          "type": "managed",
+          "projectId": "341WB3S6fAjbZggAzyKhr1",
+          "renderModuleFilePath": "plasmic/sitex_code_gen/PlasmicCreateUpdateCompany.tsx",
+          "importSpec": {
+            "modulePath": "CreateUpdateCompany.tsx"
+          },
+          "cssFilePath": "plasmic/sitex_code_gen/PlasmicCreateUpdateCompany.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "HIAFNqDo02dY",
+          "name": "CreateUpdateVariable",
+          "type": "managed",
+          "projectId": "341WB3S6fAjbZggAzyKhr1",
+          "renderModuleFilePath": "plasmic/sitex_code_gen/PlasmicCreateUpdateVariable.tsx",
+          "importSpec": {
+            "modulePath": "CreateUpdateVariable.tsx"
+          },
+          "cssFilePath": "plasmic/sitex_code_gen/PlasmicCreateUpdateVariable.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "bHETlRUqjfRd",
+          "name": "BilanAnalytics",
+          "type": "managed",
+          "projectId": "341WB3S6fAjbZggAzyKhr1",
+          "renderModuleFilePath": "plasmic/sitex_code_gen/PlasmicBilanAnalytics.tsx",
+          "importSpec": {
+            "modulePath": "../pages/bilan_retex_analytics.tsx"
+          },
+          "cssFilePath": "plasmic/sitex_code_gen/PlasmicBilanAnalytics.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/bilan_retex_analytics"
+        },
+        {
+          "id": "1UZjUwgwflcc",
+          "name": "BilanSynthese",
+          "type": "managed",
+          "projectId": "341WB3S6fAjbZggAzyKhr1",
+          "renderModuleFilePath": "plasmic/sitex_code_gen/PlasmicBilanSynthese.tsx",
+          "importSpec": {
+            "modulePath": "../pages/bilan_retex_synthese.tsx"
+          },
+          "cssFilePath": "plasmic/sitex_code_gen/PlasmicBilanSynthese.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/bilan_retex_synthese"
+        },
+        {
+          "id": "eOKvLoQY8qlH",
+          "name": "RetexMenu",
+          "type": "managed",
+          "projectId": "341WB3S6fAjbZggAzyKhr1",
+          "renderModuleFilePath": "plasmic/sitex_code_gen/PlasmicRetexMenu.tsx",
+          "importSpec": {
+            "modulePath": "RetexMenu.tsx"
+          },
+          "cssFilePath": "plasmic/sitex_code_gen/PlasmicRetexMenu.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "mlofZlsjTvgi",
+          "name": "CreateUpdateSituationModal",
+          "type": "managed",
+          "projectId": "341WB3S6fAjbZggAzyKhr1",
+          "renderModuleFilePath": "plasmic/sitex_code_gen/PlasmicCreateUpdateSituationModal.tsx",
+          "importSpec": {
+            "modulePath": "CreateUpdateSituationModal.tsx"
+          },
+          "cssFilePath": "plasmic/sitex_code_gen/PlasmicCreateUpdateSituationModal.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "pbeNU8b7jDjy",
+          "name": "TabButtonCustom",
+          "type": "managed",
+          "projectId": "341WB3S6fAjbZggAzyKhr1",
+          "renderModuleFilePath": "plasmic/sitex_code_gen/PlasmicTabButtonCustom.tsx",
+          "importSpec": {
+            "modulePath": "TabButtonCustom.tsx"
+          },
+          "cssFilePath": "plasmic/sitex_code_gen/PlasmicTabButtonCustom.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "fD0WHTPLkGL9",
+          "name": "DataGridOperations",
+          "type": "managed",
+          "projectId": "341WB3S6fAjbZggAzyKhr1",
+          "renderModuleFilePath": "plasmic/sitex_code_gen/PlasmicDataGridOperations.tsx",
+          "importSpec": {
+            "modulePath": "DataGridOperations.tsx"
+          },
+          "cssFilePath": "plasmic/sitex_code_gen/PlasmicDataGridOperations.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "t3UNk4cyoFOJ",
+          "name": "StatutOperation",
+          "type": "managed",
+          "projectId": "341WB3S6fAjbZggAzyKhr1",
+          "renderModuleFilePath": "plasmic/sitex_code_gen/PlasmicStatutOperation.tsx",
+          "importSpec": {
+            "modulePath": "StatutOperation.tsx"
+          },
+          "cssFilePath": "plasmic/sitex_code_gen/PlasmicStatutOperation.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "2sust96-3y0R",
+          "name": "Modaltest",
+          "type": "managed",
+          "projectId": "341WB3S6fAjbZggAzyKhr1",
+          "renderModuleFilePath": "plasmic/sitex_code_gen/PlasmicModaltest.tsx",
+          "importSpec": {
+            "modulePath": "Modaltest.tsx"
+          },
+          "cssFilePath": "plasmic/sitex_code_gen/PlasmicModaltest.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "7iqQuq7PqTqr",
+          "name": "DataGridDispositif",
+          "type": "managed",
+          "projectId": "341WB3S6fAjbZggAzyKhr1",
+          "renderModuleFilePath": "plasmic/sitex_code_gen/PlasmicDataGridDispositif.tsx",
+          "importSpec": {
+            "modulePath": "DataGridDispositif.tsx"
+          },
+          "cssFilePath": "plasmic/sitex_code_gen/PlasmicDataGridDispositif.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "Tn0UynVRQFrx",
+          "name": "DataGridRunsheet",
+          "type": "managed",
+          "projectId": "341WB3S6fAjbZggAzyKhr1",
+          "renderModuleFilePath": "plasmic/sitex_code_gen/PlasmicDataGridRunsheet.tsx",
+          "importSpec": {
+            "modulePath": "DataGridRunsheet.tsx"
+          },
+          "cssFilePath": "plasmic/sitex_code_gen/PlasmicDataGridRunsheet.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "zu3ZCS3LfO6O",
+          "name": "DataGridDispositif2",
+          "type": "managed",
+          "projectId": "341WB3S6fAjbZggAzyKhr1",
+          "renderModuleFilePath": "plasmic/sitex_code_gen/PlasmicDataGridDispositif2.tsx",
+          "importSpec": {
+            "modulePath": "DataGridDispositif2.tsx"
+          },
+          "cssFilePath": "plasmic/sitex_code_gen/PlasmicDataGridDispositif2.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "15sK7-TYJ3_o",
+          "name": "SaveModifButton",
+          "type": "managed",
+          "projectId": "341WB3S6fAjbZggAzyKhr1",
+          "renderModuleFilePath": "plasmic/sitex_code_gen/PlasmicSaveModifButton.tsx",
+          "importSpec": {
+            "modulePath": "SaveModifButton.tsx"
+          },
+          "cssFilePath": "plasmic/sitex_code_gen/PlasmicSaveModifButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "ifRw-0-06-Dn",
+          "name": "CreateUpdateSituation",
+          "type": "managed",
+          "projectId": "341WB3S6fAjbZggAzyKhr1",
+          "renderModuleFilePath": "plasmic/sitex_code_gen/PlasmicCreateUpdateSituation.tsx",
+          "importSpec": {
+            "modulePath": "CreateUpdateSituation.tsx"
+          },
+          "cssFilePath": "plasmic/sitex_code_gen/PlasmicCreateUpdateSituation.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        }
+      ],
+      "icons": [
+        {
+          "id": "eA4nN3_TbdrJ",
+          "name": "Ellipse190Icon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__Ellipse190.tsx"
+        },
+        {
+          "id": "p1YPmskuAYI2",
+          "name": "Ellipse191Icon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__Ellipse191.tsx"
+        },
+        {
+          "id": "9JjVenKaquZL",
+          "name": "Line295Icon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__Line295.tsx"
+        },
+        {
+          "id": "HCPsunS-fmP6",
+          "name": "Ellipse187Icon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__Ellipse187.tsx"
+        },
+        {
+          "id": "RdQSueESMBau",
+          "name": "Ellipse192Icon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__Ellipse192.tsx"
+        },
+        {
+          "id": "GXxwbmvNEgwq",
+          "name": "CircleIcon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__Circle.tsx"
+        },
+        {
+          "id": "t_DMhjzzg7u-",
+          "name": "ChevronDownIcon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__ChevronDown.tsx"
+        },
+        {
+          "id": "8sn_TjfD-7GA",
+          "name": "PhGridFourFillIcon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__PhGridFourFill.tsx"
+        },
+        {
+          "id": "3xbs9uQMOSa-",
+          "name": "PlayCircleIcon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__PlayCircle.tsx"
+        },
+        {
+          "id": "NYzYvDEBOieQ",
+          "name": "PhCalendarCheckFillIcon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__PhCalendarCheckFill.tsx"
+        },
+        {
+          "id": "CxVtPFpWDYul",
+          "name": "PhChartDonutFillIcon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__PhChartDonutFill.tsx"
+        },
+        {
+          "id": "PK3EVUNkQ_At",
+          "name": "MapPinIcon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__MapPin.tsx"
+        },
+        {
+          "id": "Ckm62y44qvwo",
+          "name": "AddressBookIcon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__AddressBook.tsx"
+        },
+        {
+          "id": "mPYk0ZEUw6Wc",
+          "name": "PhGearFillIcon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__PhGearFill.tsx"
+        },
+        {
+          "id": "qz78GVJjinVL",
+          "name": "PhSignOutBoldIcon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__PhSignOutBold.tsx"
+        },
+        {
+          "id": "vxoLwbtBRoIB",
+          "name": "DotIcon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__Dot.tsx"
+        },
+        {
+          "id": "bb9KpXgYTNxa",
+          "name": "PhBellFillIcon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__PhBellFill.tsx"
+        },
+        {
+          "id": "I-PK4uRbxJRc",
+          "name": "MagnifyingGlassIcon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__MagnifyingGlass.tsx"
+        },
+        {
+          "id": "yp2q2x7jxhyF",
+          "name": "SlidersHorizontalIcon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__SlidersHorizontal.tsx"
+        },
+        {
+          "id": "7-eqbUfgKU33",
+          "name": "PlusIcon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__Plus.tsx"
+        },
+        {
+          "id": "fCem2b1vVAiV",
+          "name": "ArrowDownIcon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__ArrowDown.tsx"
+        },
+        {
+          "id": "tB_FoVcKP-8C",
+          "name": "ArrowDown2Icon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__ArrowDown2.tsx"
+        },
+        {
+          "id": "c5fAyX8690pK",
+          "name": "Dot2Icon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__Dot2.tsx"
+        },
+        {
+          "id": "AIUQid3bVY2V",
+          "name": "PencilSimpleIcon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__PencilSimple.tsx"
+        },
+        {
+          "id": "n2HeGAbq6FXh",
+          "name": "CopyIcon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__Copy.tsx"
+        },
+        {
+          "id": "Gafcrqr3y1cZ",
+          "name": "DownloadSimpleIcon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__DownloadSimple.tsx"
+        },
+        {
+          "id": "ilEQCdjaqXbL",
+          "name": "TrashIcon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__Trash.tsx"
+        },
+        {
+          "id": "cghc6kciFm2G",
+          "name": "PhCalendarBlankFillIcon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__PhCalendarBlankFill.tsx"
+        },
+        {
+          "id": "j1hFSwL8QFW8",
+          "name": "LinkSimpleIcon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__LinkSimple.tsx"
+        },
+        {
+          "id": "Ciiq3-41nfH3",
+          "name": "XIcon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__X.tsx"
+        },
+        {
+          "id": "AYk-58P6o0iM",
+          "name": "MailIcon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__Mail.tsx"
+        },
+        {
+          "id": "ALDCuxK9vmsQ",
+          "name": "ChevronDown2Icon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__ChevronDown2.tsx"
+        },
+        {
+          "id": "gW8C_aGpyApc",
+          "name": "CurrencyEurIcon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__CurrencyEur.tsx"
+        },
+        {
+          "id": "KSDVg8pxipFP",
+          "name": "OutlinedIcon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__Outlined.tsx"
+        },
+        {
+          "id": "hf9VaFZryDjW",
+          "name": "FilledIcon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__Filled.tsx"
+        },
+        {
+          "id": "KUj1hb82lL9p",
+          "name": "Outlined2Icon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__Outlined2.tsx"
+        },
+        {
+          "id": "bV2Rhoi89Nbo",
+          "name": "Filled2Icon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__Filled2.tsx"
+        },
+        {
+          "id": "F-p0hJ-0w6np",
+          "name": "Outlined3Icon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__Outlined3.tsx"
+        },
+        {
+          "id": "0betudEa-qOp",
+          "name": "Outlined4Icon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__Outlined4.tsx"
+        },
+        {
+          "id": "0fyEdXS8b5qB",
+          "name": "Filled3Icon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__Filled3.tsx"
+        },
+        {
+          "id": "KELtri34ORgp",
+          "name": "Outlined5Icon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__Outlined5.tsx"
+        },
+        {
+          "id": "8jxFG1oHtkw2",
+          "name": "Filled4Icon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__Filled4.tsx"
+        },
+        {
+          "id": "vsSe2R3hqp-H",
+          "name": "Outlined6Icon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__Outlined6.tsx"
+        },
+        {
+          "id": "9CfLC5ZQ7veK",
+          "name": "Outlined7Icon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__Outlined7.tsx"
+        },
+        {
+          "id": "4UmaWISAaqWp",
+          "name": "Outlined8Icon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__Outlined8.tsx"
+        },
+        {
+          "id": "PWnzGUKO-rFw",
+          "name": "Outlined9Icon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__Outlined9.tsx"
+        },
+        {
+          "id": "8J79OcNmiVuF",
+          "name": "IcRoundPlusIcon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__IcRoundPlus.tsx"
+        },
+        {
+          "id": "IdP8XmyKAA75",
+          "name": "Line9Icon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__Line9.tsx"
+        },
+        {
+          "id": "aSZ_Ajc297X8",
+          "name": "IconGoogleIcon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__IconGoogle.tsx"
+        },
+        {
+          "id": "EW8lvp8Rllk4",
+          "name": "IcTwotoneAppleIcon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__IcTwotoneApple.tsx"
+        },
+        {
+          "id": "b-hWlWAZSFUh",
+          "name": "MdiFacebookIcon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__MdiFacebook.tsx"
+        },
+        {
+          "id": "K5zafd2EwXKH",
+          "name": "CaretDownIcon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__CaretDown.tsx"
+        },
+        {
+          "id": "YMQfjoyGNKgC",
+          "name": "ExportArrowUpSvgrepoComSvgIcon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__ExportArrowUpSvgrepoComSvg.tsx"
+        },
+        {
+          "id": "ScqJ4niVR1lG",
+          "name": "CheckIcon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__Check.tsx"
+        },
+        {
+          "id": "3WzWKcwSW04v",
+          "name": "Ellipse186Icon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__Ellipse186.tsx"
+        },
+        {
+          "id": "sUrFG1LgJyYB",
+          "name": "FloppyDiskBackIcon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__FloppyDiskBack.tsx"
+        },
+        {
+          "id": "ieZKa4cQud1_",
+          "name": "IconPhTrashIcon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__IconPhTrash.tsx"
+        },
+        {
+          "id": "9ffgVdSgB-g8",
+          "name": "EyeSvgrepoComSvgIcon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__EyeSvgrepoComSvg.tsx"
+        },
+        {
+          "id": "A8zm505Cyf8z",
+          "name": "CheckSvgIcon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__CheckSvg.tsx"
+        },
+        {
+          "id": "ZolzuM1Nhh00",
+          "name": "IconIcon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__Icon.tsx"
+        },
+        {
+          "id": "XxL1L1ANBbNT",
+          "name": "Check2Icon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__Check2.tsx"
+        },
+        {
+          "id": "qfj7sKbgl-Bu",
+          "name": "MinusIcon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__Minus.tsx"
+        },
+        {
+          "id": "BFe9WdRa8wwf",
+          "name": "Outlined10Icon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__Outlined10.tsx"
+        },
+        {
+          "id": "Gsh2jsbOptsd",
+          "name": "Outlined11Icon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__Outlined11.tsx"
+        },
+        {
+          "id": "S1C6ovH1DyOg",
+          "name": "ArrowUpIcon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__ArrowUp.tsx"
+        },
+        {
+          "id": "20DzbbRg-M9l",
+          "name": "PdfDocumentSvgrepoComSvgIcon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__PdfDocumentSvgrepoComSvg.tsx"
+        },
+        {
+          "id": "etWpFDXBeE3O",
+          "name": "PhWarningFillIcon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__PhWarningFill.tsx"
+        },
+        {
+          "id": "j89_xPmjvjMf",
+          "name": "RefreshCwAlt3SvgrepoComSvgIcon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__RefreshCwAlt3SvgrepoComSvg.tsx"
+        },
+        {
+          "id": "03J45XTnTFpW",
+          "name": "Outlined12Icon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__Outlined12.tsx"
+        },
+        {
+          "id": "61rPmk6WM28q",
+          "name": "Filled7Icon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__Filled7.tsx"
+        },
+        {
+          "id": "eMX5DZwWM9X_",
+          "name": "Outlined13Icon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__Outlined13.tsx"
+        },
+        {
+          "id": "qxgAMZ2foDwJ",
+          "name": "Filled8Icon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__Filled8.tsx"
+        },
+        {
+          "id": "yGjjKjrrIhzz",
+          "name": "Outlined14Icon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__Outlined14.tsx"
+        },
+        {
+          "id": "lP5QA_3YOR7e",
+          "name": "Filled9Icon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__Filled9.tsx"
+        },
+        {
+          "id": "V1WhKQmd8zG7",
+          "name": "Outlined15Icon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__Outlined15.tsx"
+        },
+        {
+          "id": "fPJyQD50Y9WN",
+          "name": "Outlined16Icon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__Outlined16.tsx"
+        },
+        {
+          "id": "8ZG6kIrBcT28",
+          "name": "Filled10Icon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__Filled10.tsx"
+        },
+        {
+          "id": "yCWG1XbjR_P9",
+          "name": "ArrowDown3Icon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__ArrowDown3.tsx"
+        },
+        {
+          "id": "fOfs7eSixjDp",
+          "name": "PencilSimple2Icon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__PencilSimple2.tsx"
+        },
+        {
+          "id": "4k3p3NwoINXh",
+          "name": "ExportIcon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__Export.tsx"
+        },
+        {
+          "id": "P-4u3pp6Igad",
+          "name": "ArrowDown4Icon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__ArrowDown4.tsx"
+        },
+        {
+          "id": "8Sz6eUIwlz4y",
+          "name": "Copy2Icon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__Copy2.tsx"
+        },
+        {
+          "id": "QEhp7c0vkisD",
+          "name": "DownloadSimple2Icon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__DownloadSimple2.tsx"
+        },
+        {
+          "id": "YzkRektosh9D",
+          "name": "Trash2Icon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__Trash2.tsx"
+        },
+        {
+          "id": "vV5wxKVZs8Yl",
+          "name": "PhLinkSimpleBoldIcon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__PhLinkSimpleBold.tsx"
+        },
+        {
+          "id": "EKmj8DX6LlX6",
+          "name": "Icon2Icon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__Icon2.tsx"
+        },
+        {
+          "id": "KhSvQKE8QR22",
+          "name": "Outlined17Icon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__Outlined17.tsx"
+        },
+        {
+          "id": "n_4uuRS96-Zr",
+          "name": "PhPaperclipFillIcon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__PhPaperclipFill.tsx"
+        },
+        {
+          "id": "4rD-7e2FUbWF",
+          "name": "IconChevronDownIcon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__IconChevronDown.tsx"
+        },
+        {
+          "id": "QrhP_0RwCBGz",
+          "name": "IconGoogle2Icon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__IconGoogle2.tsx"
+        },
+        {
+          "id": "oDKkGMXuP_xC",
+          "name": "IcTwotoneApple2Icon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__IcTwotoneApple2.tsx"
+        },
+        {
+          "id": "Rj6TQcLx3WKL",
+          "name": "MdiFacebook2Icon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__MdiFacebook2.tsx"
+        },
+        {
+          "id": "nRQGXJj6TYjk",
+          "name": "Plus2Icon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__Plus2.tsx"
+        },
+        {
+          "id": "kYoxzOLby-tY",
+          "name": "X2Icon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__X2.tsx"
+        },
+        {
+          "id": "hOeWepN_XHwa",
+          "name": "ChevronDown3Icon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__ChevronDown3.tsx"
+        },
+        {
+          "id": "VuTfqiibFshI",
+          "name": "FloppyDiskBack2Icon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__FloppyDiskBack2.tsx"
+        },
+        {
+          "id": "r6s_7SmIOCly",
+          "name": "VectorIcon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__Vector.tsx"
+        },
+        {
+          "id": "R8iHT8-9EwJy",
+          "name": "Dot3Icon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__Dot3.tsx"
+        },
+        {
+          "id": "vmd6SxR7gBlX",
+          "name": "SlidersHorizontal2Icon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__SlidersHorizontal2.tsx"
+        },
+        {
+          "id": "BdqZ9CLeT--a",
+          "name": "Vector2Icon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__Vector2.tsx"
+        },
+        {
+          "id": "OJTnKg-tc1Dy",
+          "name": "Icon3Icon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__Icon3.tsx"
+        },
+        {
+          "id": "9VL8NkdXV2UX",
+          "name": "Vector3Icon",
+          "moduleFilePath": "plasmic/sitex_code_gen/icons/PlasmicIcon__Vector3.tsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "PuXW4zI4MYJg",
+          "name": "Placeholder Image 3",
+          "filePath": "../public/plasmic/sitex_code_gen/images/placeholderImage3.png"
+        },
+        {
+          "id": "VEgZAZ27YZE5",
+          "name": "image",
+          "filePath": "../public/plasmic/sitex_code_gen/images/image.png"
+        },
+        {
+          "id": "g98W-1CSagik",
+          "name": "Frame 64",
+          "filePath": "../public/plasmic/sitex_code_gen/images/frame64.svg"
+        },
+        {
+          "id": "UmMCDY-TyfLk",
+          "name": "Frame 65",
+          "filePath": "../public/plasmic/sitex_code_gen/images/frame65.svg"
+        },
+        {
+          "id": "21CC9_Wq_Iiz",
+          "name": "Frame 66",
+          "filePath": "../public/plasmic/sitex_code_gen/images/frame66.svg"
+        },
+        {
+          "id": "VcRxFSUt2eIS",
+          "name": "Frame 67",
+          "filePath": "../public/plasmic/sitex_code_gen/images/frame67.svg"
+        },
+        {
+          "id": "6ersfXwwLugz",
+          "name": "Avatar",
+          "filePath": "../public/plasmic/sitex_code_gen/images/avatar.png"
+        },
+        {
+          "id": "mEjj4_IXzDp8",
+          "name": "Avatar 7",
+          "filePath": "../public/plasmic/sitex_code_gen/images/avatar7.png"
+        },
+        {
+          "id": "CjjCZbk5LeEb",
+          "name": "Avatar 8",
+          "filePath": "../public/plasmic/sitex_code_gen/images/avatar8.png"
+        },
+        {
+          "id": "iVKuUiajHxtc",
+          "name": "Avatar 2",
+          "filePath": "../public/plasmic/sitex_code_gen/images/avatar2.png"
+        },
+        {
+          "id": "-iG7V8fvpxpT",
+          "name": "Avatar 3",
+          "filePath": "../public/plasmic/sitex_code_gen/images/avatar3.png"
+        },
+        {
+          "id": "HsaKgVH_fg4v",
+          "name": "Avatar 4",
+          "filePath": "../public/plasmic/sitex_code_gen/images/avatar4.png"
+        },
+        {
+          "id": "nvdUSVuKHond",
+          "name": "Avatar 5",
+          "filePath": "../public/plasmic/sitex_code_gen/images/avatar5.png"
+        },
+        {
+          "id": "9PwyItB7Oorj",
+          "name": "Placeholder Image",
+          "filePath": "../public/plasmic/sitex_code_gen/images/placeholderImage.jpg"
+        },
+        {
+          "id": "cLA6ZWJLIVR5",
+          "name": "picto.svg",
+          "filePath": "../public/plasmic/sitex_code_gen/images/pictoSvg.svg"
+        },
+        {
+          "id": "9Zz4CoWoeLBF",
+          "name": "filled 5",
+          "filePath": "../public/plasmic/sitex_code_gen/images/filled5.svg"
+        },
+        {
+          "id": "Me4qPl__20kZ",
+          "name": "filled 6",
+          "filePath": "../public/plasmic/sitex_code_gen/images/filled6.svg"
+        },
+        {
+          "id": "VcvMRwd5xUWi",
+          "name": "filled 11",
+          "filePath": "../public/plasmic/sitex_code_gen/images/filled11.svg"
+        },
+        {
+          "id": "pAzpvTbcEs_C",
+          "name": "File drop",
+          "filePath": "../public/plasmic/sitex_code_gen/images/fileDrop.svg"
+        },
+        {
+          "id": "qAJkJ10Fdi4e",
+          "name": "sitex.png",
+          "filePath": "../public/plasmic/sitex_code_gen/images/sitexPng.png"
+        },
+        {
+          "id": "2KThn3NRTO6t",
+          "name": "mdpoublié.jpeg",
+          "filePath": "../public/plasmic/sitex_code_gen/images/mdpoublieJpeg.jpg"
+        }
+      ],
+      "indirect": false,
+      "globalContextsFilePath": "plasmic/sitex_code_gen/PlasmicGlobalContextsProvider.tsx",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "0FWASzhzvOkM",
+          "name": "PlasmicHead",
+          "displayName": "hostless-plasmic-head",
+          "componentImportPath": "@plasmicapp/react-web"
+        },
+        {
+          "id": "rk8y8_Thgt76",
+          "name": "Fetcher",
+          "displayName": "plasmic-data-source-fetcher",
+          "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
+        },
+        {
+          "id": "4jYUg63Ip8fJ",
+          "name": "Checkbox",
+          "displayName": "Checkbox",
+          "componentImportPath": "./plasmic-library/forms/Checkbox"
+        },
+        {
+          "id": "CoRbhSjHyyAx",
+          "name": "DropdownMultiSelect",
+          "displayName": "DropdownMultiSelect",
+          "componentImportPath": "./plasmic-library/forms/DropdownMultiSelect"
+        },
+        {
+          "id": "yf-QkvmfySQ5",
+          "name": "FileUploader",
+          "displayName": "FileUploader",
+          "componentImportPath": "./plasmic-library/ui/FileUploader"
+        },
+        {
+          "id": "el6iEZhK34im",
+          "name": "ForgotPassword",
+          "displayName": "ForgotPassword",
+          "componentImportPath": "./plasmic-library/authentication/ForgotPassword"
+        },
+        {
+          "id": "XL2byukB_ymU",
+          "name": "HeroCard",
+          "displayName": "HeroCard",
+          "componentImportPath": "./plasmic-library/cards/HeroCard"
+        },
+        {
+          "id": "E502HVnC2hMn",
+          "name": "JamBadge",
+          "displayName": "JamBadge",
+          "componentImportPath": "./plasmic-library/badges/JamBadge"
+        },
+        {
+          "id": "xgpWyTTGtlLQ",
+          "name": "JamButton",
+          "displayName": "JamButton",
+          "componentImportPath": "./plasmic-library/buttons/JamButton"
+        },
+        {
+          "id": "eeJd_wyDZ-CG",
+          "name": "JamTextInput",
+          "displayName": "JamTextInput",
+          "componentImportPath": "./plasmic-library/forms/JamTextInput"
+        },
+        {
+          "id": "TpxA4X6Jm8HW",
+          "name": "Login",
+          "displayName": "Login",
+          "componentImportPath": "./plasmic-library/authentication/Login"
+        },
+        {
+          "id": "7-2Wto_w5BmQ",
+          "name": "PasswordCheckIndicator",
+          "displayName": "PasswordCheckIndicator",
+          "componentImportPath": "./plasmic-library/forms/PasswordCheckIndicator"
+        },
+        {
+          "id": "CtTeSXdPEYPo",
+          "name": "ProfileBadge",
+          "displayName": "ProfileBadge",
+          "componentImportPath": "./plasmic-library/badges/ProfileBadge"
+        },
+        {
+          "id": "nSFZDlKdHk3j",
+          "name": "ProgressBar",
+          "displayName": "ProgressBar",
+          "componentImportPath": "./plasmic-library/ui/ProgressBar"
+        },
+        {
+          "id": "TXg-uzxKFtbD",
+          "name": "ResetPassword",
+          "displayName": "ResetPassword",
+          "componentImportPath": "./plasmic-library/authentication/ResetPassword"
+        },
+        {
+          "id": "dOr8wVN_p-X7",
+          "name": "SignUp",
+          "displayName": "SignUp",
+          "componentImportPath": "./plasmic-library/authentication/SignUp"
+        },
+        {
+          "id": "EoIFqdbbsu6C",
+          "name": "SitexButton",
+          "displayName": "SitexButton",
+          "componentImportPath": "./plasmic-library/buttons/SitexButton"
+        },
+        {
+          "id": "jaNhtXGEXiXc",
+          "name": "SitexForm",
+          "displayName": "SitexForm",
+          "componentImportPath": "./plasmic-library/forms/SitexForm"
+        },
+        {
+          "id": "FXhuSzutgVdR",
+          "name": "SitexTextInput",
+          "displayName": "SitexTextInput",
+          "componentImportPath": "./plasmic-library/forms/SitexTextInput"
+        },
+        {
+          "id": "L-RrflTRMMhf",
+          "name": "TextInput",
+          "displayName": "TextInput",
+          "componentImportPath": "./plasmic-library/forms/TextInput"
+        },
+        {
+          "id": "RX4n3D9o0yn3",
+          "name": "Toast",
+          "displayName": "Toast",
+          "componentImportPath": "./plasmic-library/ui/Toast"
+        },
+        {
+          "id": "S1jQHM-fnZH-",
+          "name": "Toggle",
+          "displayName": "Toggle",
+          "componentImportPath": "./plasmic-library/ui/Toggle"
+        },
+        {
+          "id": "WHCEpsuznAKO",
+          "name": "SupabaseProvider",
+          "displayName": "SupabaseProvider",
+          "componentImportPath": "./index"
+        },
+        {
+          "id": "2fuJ_2goSaQV",
+          "name": "SupabaseUppyUploader",
+          "displayName": "SupabaseUppyUploader",
+          "componentImportPath": "./index"
+        },
+        {
+          "id": "Tc8H8W4FkBit",
+          "name": "SupabaseStorageGetSignedUrl",
+          "displayName": "SupabaseStorageGetSignedUrl",
+          "componentImportPath": "./index"
+        },
+        {
+          "id": "nVzf5GknHtal",
+          "name": "SupabaseUserGlobalContext",
+          "displayName": "SupabaseUserGlobalContext",
+          "componentImportPath": "./index"
+        },
+        {
+          "id": "CAe-b3cCh3IN",
+          "name": "SitexFormv2",
+          "displayName": "SitexFormv2",
+          "componentImportPath": "./plasmic-library/forms/SitexFormv2"
+        },
+        {
+          "id": "F5J-ax34nubq",
+          "name": "ButtonWalk",
+          "displayName": "ButtonWalk",
+          "componentImportPath": "./plasmic-library/buttons/ButtonWalk"
+        },
+        {
+          "id": "iAtbmaEieqny",
+          "name": "DropDown",
+          "displayName": "DropDown",
+          "componentImportPath": "./plasmic-library/forms/DropDown"
+        },
+        {
+          "id": "ouvS0c1moWH-",
+          "name": "JamCheckbox",
+          "displayName": "JamCheckbox",
+          "componentImportPath": "./plasmic-library/forms/JamCheckbox"
+        },
+        {
+          "id": "vGruHpXjBnri",
+          "name": "JamDropdown",
+          "displayName": "JamDropdown",
+          "componentImportPath": "./plasmic-library/forms/JamDropdown"
+        },
+        {
+          "id": "LqPsPRSDG_Am",
+          "name": "JobCard",
+          "displayName": "JobCard",
+          "componentImportPath": "./plasmic-library/cards/JobCard"
+        },
+        {
+          "id": "k6abEZsphEqE",
+          "name": "MapBox",
+          "displayName": "MapBox",
+          "componentImportPath": "./plasmic-library/ui/MapBox"
+        },
+        {
+          "id": "naJZguVhc1j7",
+          "name": "Option",
+          "displayName": "Option",
+          "componentImportPath": "./plasmic-library/forms/Option"
+        },
+        {
+          "id": "ee1pBu2APMRt",
+          "name": "PhoneSelector",
+          "displayName": "PhoneSelector",
+          "componentImportPath": "./plasmic-library/forms/PhoneSelector"
+        },
+        {
+          "id": "eKpGsQJqf-Pn",
+          "name": "TextLink",
+          "displayName": "TextLink",
+          "componentImportPath": "./plasmic-library/ui/TextLink"
+        },
+        {
+          "id": "Gnde4Ht4Aur5",
+          "name": "AccountParameters",
+          "displayName": "AccountParameters",
+          "componentImportPath": "./plasmic-library/authentification/AccountParameters"
+        },
+        {
+          "id": "8PkVwcEXrT46",
+          "name": "AlertManager",
+          "displayName": "AlertManager",
+          "componentImportPath": "./plasmic-library/ui/AlertManager"
+        },
+        {
+          "id": "UgPv5Wh-TKEv",
+          "name": "DataGrid",
+          "displayName": "DataGrid",
+          "componentImportPath": "./plasmic-library/ui/data_grid"
+        },
+        {
+          "id": "b1_mc_uCs9FU",
+          "name": "Kanban",
+          "displayName": "Kanban",
+          "componentImportPath": "./components/others/Kanban/Kanban"
+        },
+        {
+          "id": "hjnr9FS-SI28",
+          "name": "OperationCard",
+          "displayName": "OperationCard",
+          "componentImportPath": "./plasmic-library/cards/OperationCard"
+        },
+        {
+          "id": "JWvP2EPX_xW0",
+          "name": "ButtonGoogle",
+          "displayName": "ButtonGoogle",
+          "componentImportPath": "./plasmic-library/buttons/ButtonGoogle"
+        },
+        {
+          "id": "sxsoGbp_-2x6",
+          "name": "CardComplex",
+          "displayName": "CardComplex",
+          "componentImportPath": "./plasmic-library/cards/CardComplex"
+        },
+        {
+          "id": "BuAVCVb-c6z6",
+          "name": "CardSimple",
+          "displayName": "CardSimple",
+          "componentImportPath": "./plasmic-library/cards/CardSimple"
+        },
+        {
+          "id": "bHt_47AwYJ3C",
+          "name": "PageLoader",
+          "displayName": "PageLoader",
+          "componentImportPath": "./plasmic-library/interactions/PageLoader"
+        },
+        {
+          "id": "hV9sIeEq95Kw",
+          "name": "SmartLoader",
+          "displayName": "SmartLoader",
+          "componentImportPath": "./plasmic-library/interactions/SmartLoader"
+        },
+        {
+          "id": "FEfEREZ3oPkd",
+          "name": "SitexDropDown",
+          "displayName": "SitexDropDown",
+          "componentImportPath": "./plasmic-library/forms/SitexDropDown"
+        },
+        {
+          "id": "W3A_h361p9ml",
+          "name": "SupabaseCrud",
+          "displayName": "SupabaseCrud",
+          "componentImportPath": "./components/authentication/SupabaseCrud/SupabaseCrud"
+        },
+        {
+          "id": "N1f7mwYrJ1DU",
+          "name": "UserInvite",
+          "displayName": "UserInvite",
+          "componentImportPath": "./components/auth/UserInvite"
+        },
+        {
+          "id": "7ew7omOnLtL5",
+          "name": "UserInvite",
+          "displayName": "UserInvite",
+          "componentImportPath": "./components/auth/UserInvite"
+        },
+        {
+          "id": "V_d7oFN3x1-d",
+          "name": "BarChartMultiple",
+          "displayName": "BarChartMultiple",
+          "componentImportPath": "./plasmic-library/graphs/BarChartMultiple"
+        },
+        {
+          "id": "_d8f9T5hB7Rm",
+          "name": "RadialChart",
+          "displayName": "RadialChart",
+          "componentImportPath": "./plasmic-library/graphs/RadialChart"
+        },
+        {
+          "id": "NUh3K8InU4PR",
+          "name": "HoursCalculator",
+          "displayName": "hoursCalculator",
+          "componentImportPath": "./others/hoursCalculator/hoursCalculator"
+        },
+        {
+          "id": "20pDPGrKkb_v",
+          "name": "Calendar",
+          "displayName": "Calendar",
+          "componentImportPath": "./plasmic-library/ui/Calendar"
+        },
+        {
+          "id": "oEWCJlqxGtWi",
+          "name": "GraphJs",
+          "displayName": "GraphJs",
+          "componentImportPath": "./plasmic-library/graphs/GraphJs"
+        },
+        {
+          "id": "ydcOcmYipfjT",
+          "name": "InputComboSelect",
+          "displayName": "InputComboSelect",
+          "componentImportPath": "./plasmic-library/forms/InputComboSelect"
+        }
+      ],
+      "customFunctions": []
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "JdkNHXAWnKVK",
+        "name": "Screen",
+        "projectId": "341WB3S6fAjbZggAzyKhr1",
+        "contextFilePath": "plasmic/sitex_code_gen/PlasmicGlobalVariant__Screen.tsx"
+      }
+    ]
+  },
+  "wrapPagesWithGlobalContexts": true,
+  "nextjsConfig": {
+    "pagesDir": "../pages"
+  },
+  "cliVersion": "0.1.340",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.340/dist/plasmic.schema.json"
+}

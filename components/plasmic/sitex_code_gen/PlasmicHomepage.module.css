@@ -1,0 +1,213 @@
+.root {
+  display: grid;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  align-content: flex-start;
+  justify-items: center;
+  background: var(--token-dUF4bm_GPj6r);
+  min-width: 0;
+  min-height: 0;
+  grid-template-columns:
+    var(--plsmc-viewport-gap) 1fr minmax(0, var(--plsmc-wide-chunk))
+    min(
+      var(--plsmc-standard-width),
+      calc(100% - var(--plsmc-viewport-gap) - var(--plsmc-viewport-gap))
+    )
+    minmax(0, var(--plsmc-wide-chunk)) 1fr var(--plsmc-viewport-gap);
+  padding: 0px;
+}
+.root > * {
+  grid-column: 4;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .root > * {
+    grid-column: 4;
+  }
+}
+.global {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  height: 100vh;
+  max-width: 100%;
+  grid-column-start: 1 !important;
+  grid-column-end: -1 !important;
+}
+.backgroundImage {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  background: url("/plasmic/sitex_code_gen/images/placeholderImage3.png") top 50% left 50% / cover repeat;
+  min-width: 0;
+  padding: 8px;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .backgroundImage {
+    display: none;
+  }
+}
+.logoConnection {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  justify-content: center;
+  align-items: center;
+  min-width: 0;
+  padding: 8px;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .logoConnection {
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+  }
+}
+.frame1437253902 {
+  width: 566px;
+  height: 345px;
+  display: block;
+  flex-shrink: 0;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .frame1437253902 {
+    height: auto;
+    width: auto;
+    align-self: stretch;
+  }
+}
+.frame133 {
+  display: flex;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  flex-direction: column;
+  width: 100%;
+}
+.frame133 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  margin-top: calc(0px - 8px);
+  height: calc(100% + 8px);
+}
+.frame133 > :global(.__wab_flex-container) > *,
+.frame133 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.frame133 > :global(.__wab_flex-container) > picture > img,
+.frame133
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 8px;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .frame133 {
+    width: auto;
+    top: 20%;
+    left: 0;
+    height: auto;
+    z-index: 1;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .frame133 > :global(.__wab_flex-container) {
+    align-items: center;
+  }
+}
+.freeBox {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items: stretch;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  top: auto;
+  left: auto;
+  min-width: 0;
+  padding: 8px;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .freeBox {
+    width: 100%;
+    align-self: center;
+    justify-content: center;
+    min-width: 0;
+  }
+}
+.img {
+  object-fit: cover;
+  max-width: 100%;
+}
+.img > picture > img {
+  object-fit: cover;
+}
+.svg {
+  object-fit: cover;
+  max-width: 100%;
+  color: #fff;
+  transform: scale(0.9999999788530141, 0.999984470541442)
+    rotate(-0.10401302147650325deg) skew(0.3194532000914925deg, 0deg);
+  width: 544px;
+  height: 2px;
+  display: block;
+  transform-origin: top left;
+  position: relative;
+  top: auto;
+  left: auto;
+  flex-shrink: 0;
+}
+.quote {
+  display: block;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: "Manrope", sans-serif;
+  font-weight: 800;
+  letter-spacing: 0em;
+  line-height: 1.399999976158142;
+  color: rgba(251, 251, 251, 1);
+  position: relative;
+  font-style: normal;
+  text-align: center;
+  white-space: pre-wrap;
+  user-select: text;
+  text-decoration-line: none;
+  text-overflow: clip;
+  width: 100%;
+  min-width: 0;
+}
+.buttonSitex:global(.__wab_instance) {
+  background: #7641f1;
+  align-self: center;
+  font-family: "Manrope", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  font-style: normal;
+  color: rgba(255, 255, 255, 1);
+  text-align: left;
+  text-transform: none;
+  line-height: 24px;
+  letter-spacing: 0em;
+  white-space: pre-wrap;
+  user-select: text;
+  text-decoration-line: none;
+  text-overflow: clip;
+  object-fit: cover;
+  position: relative;
+  width: 100%;
+  max-width: 50%;
+  min-width: 0;
+}

@@ -1,0 +1,43 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  background: #ece6df;
+  height: auto;
+  border-radius: 64px;
+  padding: 6px 10px;
+}
+.rootaPlanifier {
+  background: #d9cdbf;
+  width: auto;
+  justify-self: flex-start;
+  height: auto;
+  display: inline-flex;
+  padding: 6px 10px;
+}
+.rootaEngager {
+  background: #c6b49f;
+}
+.rootenCours {
+  background: #b39c7f;
+}
+.rootclasse {
+  background: #80694c;
+}
+.text {
+  display: block;
+  font-size: 13px;
+  font-family: "Manrope", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(19, 16, 19, 1);
+  position: relative;
+  margin-top: 0px;
+}
+.textclasse {
+  color: var(--token-LZu0LSKTiwJH);
+  margin-top: 0px;
+}
